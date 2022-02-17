@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "LeaderboardSPR",
-    "path": "sprites/LeaderboardSPR/LeaderboardSPR.yy",
+    "name": "CreditsSPR",
+    "path": "sprites/CreditsSPR/CreditsSPR.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "LeaderboardOBJ",
+  "name": "CreditsOBJ",
   "tags": [],
   "resourceType": "GMObject",
 }

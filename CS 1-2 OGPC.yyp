@@ -1,8 +1,18 @@
 {
   "resources": [
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":2,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"CreditsSPR","path":"sprites/CreditsSPR/CreditsSPR.yy",},"order":0,},
+    {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":3,},
+    {"id":{"name":"PeopleCredits","path":"objects/PeopleCredits/PeopleCredits.yy",},"order":4,},
+    {"id":{"name":"Settings","path":"rooms/Settings/Settings.yy",},"order":2,},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":1,},
+    {"id":{"name":"SettingsOBJ","path":"objects/SettingsOBJ/SettingsOBJ.yy",},"order":0,},
+    {"id":{"name":"LeaderboardSPR","path":"sprites/LeaderboardSPR/LeaderboardSPR.yy",},"order":1,},
+    {"id":{"name":"LeaderboardOBJ","path":"objects/LeaderboardOBJ/LeaderboardOBJ.yy",},"order":2,},
+    {"id":{"name":"MainMenuOBJ","path":"objects/MainMenuOBJ/MainMenuOBJ.yy",},"order":3,},
+    {"id":{"name":"SettingsSPR","path":"sprites/SettingsSPR/SettingsSPR.yy",},"order":2,},
+    {"id":{"name":"CreditsOBJ","path":"objects/CreditsOBJ/CreditsOBJ.yy",},"order":1,},
+    {"id":{"name":"ManinMeueButtonSPR","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"order":3,},
+    {"id":{"name":"Leaderboard","path":"rooms/Leaderboard/Leaderboard.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -20,6 +30,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"roomId":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
+    {"roomId":{"name":"Leaderboard","path":"rooms/Leaderboard/Leaderboard.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [

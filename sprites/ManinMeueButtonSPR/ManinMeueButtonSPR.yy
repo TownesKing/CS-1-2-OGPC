@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_left": 2,
+  "bbox_right": 45,
+  "bbox_top": 8,
+  "bbox_bottom": 44,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ade22544-f181-4b1c-9c5b-76e4f3fb3912","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ade22544-f181-4b1c-9c5b-76e4f3fb3912","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":{"name":"2806a34d-1934-40c5-b719-102b6a1d995c","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"ade22544-f181-4b1c-9c5b-76e4f3fb3912","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"46a71d2c-9b5f-479e-b2dd-66bcb1c297d3","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"46a71d2c-9b5f-479e-b2dd-66bcb1c297d3","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"LayerId":{"name":"1a0957fa-2d33-45ab-869d-09b5e3c9dbe6","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ManinMeueButtonSPR","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"resourceVersion":"1.0","name":"46a71d2c-9b5f-479e-b2dd-66bcb1c297d3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "spriteId": {"name":"ManinMeueButtonSPR","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8cabb8c9-0f8c-4b37-b244-db1830bf35e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ade22544-f181-4b1c-9c5b-76e4f3fb3912","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9d387341-2d8f-40cc-84f8-1289f4d6a5b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"46a71d2c-9b5f-479e-b2dd-66bcb1c297d3","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "parent": {"name":"ManinMeueButtonSPR","path":"sprites/ManinMeueButtonSPR/ManinMeueButtonSPR.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite1",
+    "name": "ManinMeueButtonSPR",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2806a34d-1934-40c5-b719-102b6a1d995c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a0957fa-2d33-45ab-869d-09b5e3c9dbe6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite1",
+  "name": "ManinMeueButtonSPR",
   "tags": [],
   "resourceType": "GMSprite",
 }
