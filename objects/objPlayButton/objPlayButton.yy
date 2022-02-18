@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprLeaderboard",
-    "path": "sprites/sprLeaderboard/sprLeaderboard.yy",
+    "name": "sprPlay",
+    "path": "sprites/sprPlay/sprPlay.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "LeaderboardOBJ",
+  "name": "objPlayButton",
   "tags": [],
   "resourceType": "GMObject",
 }

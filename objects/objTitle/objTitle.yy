@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprLeaderboard",
-    "path": "sprites/sprLeaderboard/sprLeaderboard.yy",
+    "name": "sprTitle",
+    "path": "sprites/sprTitle/sprTitle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "LeaderboardOBJ",
+  "name": "objTitle",
   "tags": [],
   "resourceType": "GMObject",
 }
