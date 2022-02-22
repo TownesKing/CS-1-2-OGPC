@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "LeaderboardSPR",
-    "path": "sprites/LeaderboardSPR/LeaderboardSPR.yy",
+    "name": "sprLeaderboard",
+    "path": "sprites/sprLeaderboard/sprLeaderboard.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "GUI",
+    "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "LeaderboardOBJ",
