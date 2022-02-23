@@ -1,8 +1,6 @@
 {
   "resources": [
     {"id":{"name":"Senviorment_ideas","path":"sprites/Senviorment_ideas/Senviorment_ideas.yy",},"order":0,},
-    {"id":{"name":"RemoveVKey","path":"scripts/RemoveVKey/RemoveVKey.yy",},"order":5,},
-    {"id":{"name":"AddVKey","path":"scripts/AddVKey/AddVKey.yy",},"order":0,},
     {"id":{"name":"sprHostServer","path":"sprites/sprHostServer/sprHostServer.yy",},"order":7,},
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},"order":1,},
     {"id":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"order":5,},
@@ -22,6 +20,7 @@
     {"id":{"name":"sprTitle","path":"sprites/sprTitle/sprTitle.yy",},"order":5,},
     {"id":{"name":"rmJoinServer","path":"rooms/rmJoinServer/rmJoinServer.yy",},"order":7,},
     {"id":{"name":"SendKeepAlive","path":"scripts/SendKeepAlive/SendKeepAlive.yy",},"order":1,},
+    {"id":{"name":"objStartGame","path":"objects/objStartGame/objStartGame.yy",},"order":11,},
     {"id":{"name":"SettingsOBJ","path":"objects/SettingsOBJ/SettingsOBJ.yy",},"order":6,},
     {"id":{"name":"objJoinServer","path":"objects/objJoinServer/objJoinServer.yy",},"order":8,},
     {"id":{"name":"sprLeaderboard","path":"sprites/sprLeaderboard/sprLeaderboard.yy",},"order":1,},
@@ -34,7 +33,6 @@
     {"id":{"name":"MainMenuOBJ","path":"objects/MainMenuOBJ/MainMenuOBJ.yy",},"order":2,},
     {"id":{"name":"sprSettings","path":"sprites/sprSettings/sprSettings.yy",},"order":4,},
     {"id":{"name":"sprCredits","path":"sprites/sprCredits/sprCredits.yy",},"order":0,},
-    {"id":{"name":"PeopleCredits","path":"objects/PeopleCredits/PeopleCredits.yy",},"order":4,},
     {"id":{"name":"objHostServer","path":"objects/objHostServer/objHostServer.yy",},"order":7,},
     {"id":{"name":"sPuff","path":"sprites/sPuff/sPuff.yy",},"order":0,},
     {"id":{"name":"rmCreateServer","path":"rooms/rmCreateServer/rmCreateServer.yy",},"order":6,},
