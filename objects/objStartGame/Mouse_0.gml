@@ -1,1 +1,1 @@
-room_goto(rmCreateServer);
+room_goto(rmServers);

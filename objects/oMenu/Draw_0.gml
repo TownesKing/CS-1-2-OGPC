@@ -1,4 +1,5 @@
 /// @description  Draw server list
+if room != rmCreateServer{
 draw_set_font(font0);
 draw_set_color(c_black);
 
@@ -11,6 +12,7 @@ for(var i = 0; i < count; i++;)
 {
 draw_text(10, yindex, string(global.serverlist[| i]) + "  " + string(global.servernames[| i])+ "'s server");
 yindex += 30;
+}
 }
 
 
