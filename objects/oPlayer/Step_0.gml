@@ -1,15 +1,7 @@
-//xVector = (right - left) * movementSpeed;
-//yVector = (down - up) * movementSpeed;
-
-
-if keys[LEFT_KEY] {x = x - 5;}
-else if keys[RIGHT_KEY]{x = x + 5;}
-
-if keyboard_check(vk_up)
-{
-	y = y - 4;
-}
-
+if keys[LEFT_KEY] {x = x - movementSpeed;}
+else if keys[RIGHT_KEY]{x = x + movementSpeed;}
+if keys[DOWN_KEY] {y = y + movementSpeed;}
+else if keys[UP_KEY]{y = y - movementSpeed;}
 
 
 

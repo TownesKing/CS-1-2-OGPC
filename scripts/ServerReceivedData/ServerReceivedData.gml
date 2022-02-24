@@ -26,6 +26,14 @@ function ServerReceivedData() {
 			{
 	        key = RIGHT_KEY;
 			}
+		else if key == vk_down
+			{
+			key = DOWN_KEY;
+			}
+		else if key == vk_up
+			{
+			key = UP_KEY;
+			}
 	    else if key == vk_space
 			{
 	        key = JUMP_KEY;

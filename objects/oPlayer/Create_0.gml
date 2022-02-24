@@ -1,5 +1,6 @@
 randomize();
-movementSpeed = random_range(0,8);
+movementSpeed = 4;
+sprintSpeed = 6;
 
 //Spawnpoint
 x = random_range(0,250);
@@ -13,7 +14,7 @@ global.PlayerTotal++;
 playerNumber = global.PlayerTotal;
 
 //Key presses
-for(var i = 0; i < 3; i++;)
+for(var i = 0; i < 5; i++;)
 {
 keys[i] = false;
 }
