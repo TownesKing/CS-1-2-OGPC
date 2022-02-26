@@ -14,10 +14,8 @@ function ConnectDisconnectClient() {
 		{
 		// add client to our list of connected clients
 		ds_list_add( socketlist, sock);
-		// Create a new player, and pick a random colour for that player        
+		// Create a new player      
 		var inst = instance_create_layer(64, 192, "Instance_Layer", oPlayer);
-		inst.image_blend = ColourArray[colourindex];
-		colourindex = (colourindex + 1) & 15;
 		// put this instance into a map, using the socket ID as the lookup
 		Clients[? sock] = inst;
 		}

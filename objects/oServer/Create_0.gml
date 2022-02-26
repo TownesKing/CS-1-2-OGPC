@@ -25,6 +25,7 @@ colourindex = 0;
 
 // Total number of players and baddies connected
 global.PlayerTotal = 0;
+global.TileCount = 0;
 global.BaddieCount = 0;
 
 

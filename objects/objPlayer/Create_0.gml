@@ -15,7 +15,7 @@ jumpForce = -13;
 // Initialise the player and map
 CreateCollisionMap();
 
-image_speed = 0.5;
+image_speed = 0;
 PlayerName="";
 
 // 3 keys: left, right and jump (could be more)

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprback",
-    "path": "sprites/sprback/sprback.yy",
+    "name": "sprLight",
+    "path": "sprites/sprLight/sprLight.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Oback",
+  "name": "objLight",
   "tags": [],
   "resourceType": "GMObject",
 }
