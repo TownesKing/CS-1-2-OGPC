@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oClient","path":"objects/oClient/oClient.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,"resourceVersion":"1.0","name":"inst_7DC39731","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"objLight","path":"objects/objLight/objLight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":480.0,"resourceVersion":"1.0","name":"inst_41B128AF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":128.0,"resourceVersion":"1.0","name":"inst_247A0DD9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":192.0,"resourceVersion":"1.0","name":"inst_4FBC04BA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":480.0,"resourceVersion":"1.0","name":"inst_3ED31B7A","tags":[],"resourceType":"GMRInstance",},
@@ -65,7 +64,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7DC39731","path":"rooms/rmTest1/rmTest1.yy",},
-    {"name":"inst_41B128AF","path":"rooms/rmTest1/rmTest1.yy",},
     {"name":"inst_247A0DD9","path":"rooms/rmTest1/rmTest1.yy",},
     {"name":"inst_4FBC04BA","path":"rooms/rmTest1/rmTest1.yy",},
     {"name":"inst_3ED31B7A","path":"rooms/rmTest1/rmTest1.yy",},

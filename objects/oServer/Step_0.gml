@@ -10,7 +10,7 @@ global.player_buffer = player_buffer;
 // Reset buffer to start - Networking ALWAYS reads from the START of the buffer
 buffer_seek(player_buffer, buffer_seek_start, 0);
 // Total number of sprites (players+baddies)
-buffer_write(player_buffer, buffer_u32, global.PlayerTotal + global.BaddieCount);
+buffer_write(player_buffer, buffer_u32, global.PlayerTotal + global.EntityCount);
 // Dummy player x,y...will fill in later. This allows the client to follow themselves in a scrolling level.
 buffer_write(global.player_buffer, buffer_s16, 0);
 buffer_write(global.player_buffer, buffer_s16, 0);

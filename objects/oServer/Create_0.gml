@@ -25,8 +25,7 @@ colourindex = 0;
 
 // Total number of players and baddies connected
 global.PlayerTotal = 0;
-global.TileCount = 0;
-global.BaddieCount = 0;
+global.EntityCount = 0;
 
 
 // Create our server. Server creation may fail if there is already a server running. If it does fail, delete eveything and kill this instance
