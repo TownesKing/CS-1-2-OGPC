@@ -1,6 +1,10 @@
 randomize();
 movementSpeed = 4;
 sprintSpeed = 6;
+yVector = 0;
+xVector = 0;
+grv = 0.4;
+jumpForce = -9;
 
 global.PlayerTotal++;
 global.TileCount = 0;

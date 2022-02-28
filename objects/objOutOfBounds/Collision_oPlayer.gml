@@ -1,0 +1,1 @@
+teleport(other,150,150);
