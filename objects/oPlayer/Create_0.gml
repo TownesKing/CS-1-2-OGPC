@@ -33,4 +33,11 @@ for(var i = 0; i < 5; i++;)
 keys[i] = false;
 }
 
+enum states 
+{
+	walking, 
+	jumping 
+	
+}
 
+state = states.walking;
