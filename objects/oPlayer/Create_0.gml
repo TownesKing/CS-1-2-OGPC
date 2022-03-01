@@ -5,6 +5,8 @@ yVector = 0;
 xVector = 0;
 grv = 0.4;
 jumpForce = -9;
+//var for flahslight
+LightHolder = 1;
 
 global.PlayerTotal++;
 global.TileCount = 0;
@@ -19,6 +21,7 @@ if playerNumber = 2{
 	image_index = 1;
 	instance_create_depth(x,y,0,objLight);
 }
+
 
 image_speed = 0;
 PlayerName="";

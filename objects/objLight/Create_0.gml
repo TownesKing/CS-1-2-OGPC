@@ -6,4 +6,3 @@ exit;
 }
 
 global.EntityCount++;
-
