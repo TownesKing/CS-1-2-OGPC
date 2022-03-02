@@ -40,4 +40,7 @@ enum states
 	
 }
 
+states_array[states.walking] = StatePlayerWalking;
+states_array[states.jumping] = StatePlayerJumping;
+
 state = states.walking;

@@ -8,6 +8,11 @@ xVector = xDirection * movementSpeed;
 //if keys[DOWN_KEY] {y = y + movementSpeed;}
 //else if keys[UP_KEY]{y = y - movementSpeed;}
 
+script_execute(states_array[state]);
+
+
+/*
+
 if place_meeting(x,y+1,objTestDarkBlock) and keys[JUMP_KEY] {
 	yVector = jumpForce;
 }
@@ -33,3 +38,5 @@ if place_meeting(x + xVector,y,objTestDarkBlock){
 }
 // This line actually does the movement
 x = x + xVector;
+
+*/
