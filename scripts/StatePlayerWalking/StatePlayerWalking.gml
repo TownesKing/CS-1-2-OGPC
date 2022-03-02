@@ -5,11 +5,13 @@ function StatePlayerWalking()
 
 
 	//what does state do?
+	CheckPlayerL_R()
 	CheckPlayerColisH()
 	CheckPlayerColisV()
 
 
 	//animations for states
+	
 	
 	//conditions for leaving the states 
 	if place_meeting(x,y+1,objTestDarkBlock) and keys[JUMP_KEY] 
