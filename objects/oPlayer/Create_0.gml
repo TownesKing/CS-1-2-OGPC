@@ -43,8 +43,4 @@ enum states
 states_array[states.walking] = StatePlayerWalking;
 states_array[states.jumping] = StatePlayerJumping;
 
-sprites_array[states.walking] = sprPlayerWalking;
-sprites_array[states.jumping] = sprPlayerJumping;
-
-
 state = states.walking;
