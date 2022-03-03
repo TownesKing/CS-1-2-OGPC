@@ -33,13 +33,8 @@ for(var i = 0; i < 5; i++;)
 keys[i] = false;
 }
 
-enum states 
-{
-	walking, 
-	jumping 
-	
-}
 
+<<<<<<< HEAD
 states_array[states.walking] = StatePlayerWalking;
 states_array[states.jumping] = StatePlayerJumping;
 
@@ -48,3 +43,5 @@ sprites_array[states.jumping] = sprPlayerJumping;
 
 
 state = states.walking;
+=======
+>>>>>>> parent of 4939bbc (states)

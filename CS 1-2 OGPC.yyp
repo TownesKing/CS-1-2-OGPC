@@ -7,8 +7,11 @@
     {"id":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"order":3,},
     {"id":{"name":"sprNavCredits","path":"sprites/sprNavCredits/sprNavCredits.yy",},"order":3,},
     {"id":{"name":"sprChooseName","path":"sprites/sprChooseName/sprChooseName.yy",},"order":9,},
+<<<<<<< HEAD
     {"id":{"name":"CheckPlayerL_R","path":"scripts/CheckPlayerL_R/CheckPlayerL_R.yy",},"order":4,},
     {"id":{"name":"sprPlayerJumping","path":"sprites/sprPlayerJumping/sprPlayerJumping.yy",},"order":4,},
+=======
+>>>>>>> parent of 4939bbc (states)
     {"id":{"name":"rmServers","path":"rooms/rmServers/rmServers.yy",},"order":5,},
     {"id":{"name":"objGenerateServer","path":"objects/objGenerateServer/objGenerateServer.yy",},"order":9,},
     {"id":{"name":"rmCredits","path":"rooms/rmCredits/rmCredits.yy",},"order":3,},
@@ -16,15 +19,18 @@
     {"id":{"name":"objCredits","path":"objects/objCredits/objCredits.yy",},"order":3,},
     {"id":{"name":"rmSettings","path":"rooms/rmSettings/rmSettings.yy",},"order":2,},
     {"id":{"name":"sprPlay","path":"sprites/sprPlay/sprPlay.yy",},"order":6,},
+<<<<<<< HEAD
     {"id":{"name":"CheckPlayerColisV","path":"scripts/CheckPlayerColisV/CheckPlayerColisV.yy",},"order":2,},
     {"id":{"name":"sprPlayerWalking","path":"sprites/sprPlayerWalking/sprPlayerWalking.yy",},"order":1,},
+=======
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":1,},
+>>>>>>> parent of 4939bbc (states)
     {"id":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},"order":1,},
     {"id":{"name":"Sbaseset","path":"sprites/Sbaseset/Sbaseset.yy",},"order":1,},
     {"id":{"name":"SendKey","path":"scripts/SendKey/SendKey.yy",},"order":2,},
     {"id":{"name":"sPlayerL","path":"sprites/sPlayerL/sPlayerL.yy",},"order":3,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":1,},
     {"id":{"name":"sprTitle","path":"sprites/sprTitle/sprTitle.yy",},"order":5,},
-    {"id":{"name":"CheckPlayerColisH","path":"scripts/CheckPlayerColisH/CheckPlayerColisH.yy",},"order":3,},
     {"id":{"name":"rmJoinServer","path":"rooms/rmJoinServer/rmJoinServer.yy",},"order":7,},
     {"id":{"name":"SendKeepAlive","path":"scripts/SendKeepAlive/SendKeepAlive.yy",},"order":1,},
     {"id":{"name":"objStartGame","path":"objects/objStartGame/objStartGame.yy",},"order":10,},
@@ -58,13 +64,10 @@
     {"id":{"name":"sprMainMenuButton","path":"sprites/sprMainMenuButton/sprMainMenuButton.yy",},"order":2,},
     {"id":{"name":"SdungeonWall","path":"sprites/SdungeonWall/SdungeonWall.yy",},"order":2,},
     {"id":{"name":"GetCollision","path":"scripts/GetCollision/GetCollision.yy",},"order":3,},
-    {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":5,},
     {"id":{"name":"oClient","path":"objects/oClient/oClient.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
-    {"id":{"name":"CheckPlayerJump","path":"scripts/CheckPlayerJump/CheckPlayerJump.yy",},"order":1,},
     {"id":{"name":"objPlayer_unused","path":"objects/objPlayer_unused/objPlayer_unused.yy",},"order":2,},
     {"id":{"name":"sprGenerateServer","path":"sprites/sprGenerateServer/sprGenerateServer.yy",},"order":10,},
-    {"id":{"name":"StatePlayerJumping","path":"scripts/StatePlayerJumping/StatePlayerJumping.yy",},"order":6,},
     {"id":{"name":"ServerReceivedData","path":"scripts/ServerReceivedData/ServerReceivedData.yy",},"order":4,},
     {"id":{"name":"rmLeaderboard","path":"rooms/rmLeaderboard/rmLeaderboard.yy",},"order":4,},
     {"id":{"name":"Teleport","path":"scripts/Teleport/Teleport.yy",},"order":0,},
