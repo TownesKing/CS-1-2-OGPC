@@ -6,27 +6,25 @@ xVector = 0;
 grv = 0.4;
 jumpForce = -9;
 
-// Tells the server that another player has joined and defines whether you're player 1 or 2
+// Tells the server that another player has joined
 global.PlayerTotal++;
-playerNumber = global.PlayerTotal;
+
+// Creates the choices for player 1 or 2
+knight = false;
+lightbearer = false;
+
 
 //Spawnpoint
 x = random_range(0,250);
 y = random_range(0,250);
-
-// Change Which Player you are
-if playerNumber = 2{
-	image_index = 1;
-	instance_create_depth(x,y,0,objLight);
-}
 
 
 image_speed = 0;
 PlayerName="";
 CreateCollisionMap();
 
-//Key presses
-for(var i = 0; i < 5; i++;)
+// Gets all the keys used (It's done this way for networking reasons)
+for(var i = 0; i < 6; i++;)
 {
 keys[i] = false;
 }

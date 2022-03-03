@@ -38,6 +38,10 @@ function ServerReceivedData() {
 			{
 	        key = JUMP_KEY;
 			}
+		else if key == ord("A")
+			{
+	        key = INTERACT_KEY;
+			}
 	    // translate updown into a bool for the player array       
 	    if updown == 0
 			{

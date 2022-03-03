@@ -9,6 +9,7 @@ function macros() {
 #macro JUMP_KEY 2
 #macro DOWN_KEY 3
 #macro UP_KEY 4
+#macro INTERACT_KEY 5
 
 #macro KEY_CMD 0
 #macro NAME_CMD 1
