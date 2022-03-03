@@ -38,4 +38,7 @@ if place_meeting(x + xVector,y,objTestDarkBlock){
 }
 // This line actually does the movement
 x = x + xVector;
+<<<<<<< HEAD
 >>>>>>> parent of 4939bbc (states)
+=======
+>>>>>>> parent of 940576f (Changed GUI sprites, added placeholder player walking sprites)
