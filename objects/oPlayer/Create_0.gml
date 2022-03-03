@@ -5,11 +5,9 @@ yVector = 0;
 xVector = 0;
 grv = 0.4;
 jumpForce = -9;
-//var for flahslight
-LightHolder = 1;
 
+// Tells the server that another player has joined and defines whether you're player 1 or 2
 global.PlayerTotal++;
-global.TileCount = 0;
 playerNumber = global.PlayerTotal;
 
 //Spawnpoint

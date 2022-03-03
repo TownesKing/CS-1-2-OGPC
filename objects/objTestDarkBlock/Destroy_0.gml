@@ -1,2 +1,2 @@
-global.BaddieCount--;
+//global.EntityCount--;
 

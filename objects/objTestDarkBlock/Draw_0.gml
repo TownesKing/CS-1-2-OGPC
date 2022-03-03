@@ -1,2 +1,2 @@
-/// @description  Suppress - don't draw enemies
+/// @description  Suppress - don't draw
 
