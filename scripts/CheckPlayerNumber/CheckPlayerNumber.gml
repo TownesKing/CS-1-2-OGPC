@@ -5,11 +5,12 @@
 function CheckPlayerNumber(){
 	// If they pick up the lantern
 	if lightbearer == true{
-		image_index = 2;
-		instance_create_depth(x,y,0,objLight);
+		instance_change(oPlayerL,false);
+		instance_destroy();
 	}
 	// If they pick up the sword
 	else if knight == true{
-		image_index = 1;
+		instance_change(oPlayerS,false);
+		instance_destroy();
 	}
 }

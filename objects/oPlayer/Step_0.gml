@@ -2,4 +2,4 @@ CheckPlayerJump();
 CheckPlayerColisV();
 CheckPlayerColisH();
 CheckPlayerL_R();
-CheckPlayerNumber();
+if object_index == oPlayer {CheckPlayerNumber();}

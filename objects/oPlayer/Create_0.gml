@@ -12,6 +12,8 @@ global.PlayerTotal++;
 // Creates the choices for player 1 or 2
 knight = false;
 lightbearer = false;
+// Light is off by default
+illuminated = false;
 
 
 //Spawnpoint
