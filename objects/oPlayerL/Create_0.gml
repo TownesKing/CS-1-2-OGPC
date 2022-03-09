@@ -5,4 +5,5 @@
 event_inherited();
 
 lightbearer = true;
-instance_create_layer(x,y,"Instance", objLight);
+instance_create_depth(x,y,0,objLight);
+show_debug_message("E");

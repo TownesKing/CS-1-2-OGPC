@@ -22,7 +22,8 @@ switch (global.NetworkState)
         ds_list_add(allsprites, buffer_read(buff,buffer_s16));     //y
         ds_list_add(allsprites, buffer_read(buff,buffer_s16));     //sprite_index
         ds_list_add(allsprites, buffer_read(buff,buffer_s16));     //image_index
-        ds_list_add(allsprites, buffer_read(buff,buffer_s32));     //image_blend        
+        ds_list_add(allsprites, buffer_read(buff,buffer_s32));     //image_blend  
+		ds_list_add(allsprites, buffer_read(buff,buffer_s32));     //image_angle 
         ds_list_add(allsprites, buffer_read(buff,buffer_string));  // player name
         }    
     }

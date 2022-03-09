@@ -1,2 +1,2 @@
-/// @description  Suppress - don't draw
+/// @description  Don't draw client-side
 

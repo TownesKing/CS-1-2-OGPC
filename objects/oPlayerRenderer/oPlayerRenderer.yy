@@ -29,7 +29,7 @@
     "path": "folders/Objects/Networking.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oServerHelper",
+  "name": "oPlayerRenderer",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -15,15 +15,17 @@ buffer_write(player_buffer, buffer_u32, global.PlayerTotal + global.EntityCount)
 buffer_write(global.player_buffer, buffer_s16, 0);
 buffer_write(global.player_buffer, buffer_s16, 0);
 // All attached players
-with(oPlayer)
+with(oPlayerRenderer)
 	{
     buffer_write(global.player_buffer, buffer_s16, x);
     buffer_write(global.player_buffer, buffer_s16, y);
     buffer_write(global.player_buffer, buffer_s16, sprite_index);
     buffer_write(global.player_buffer, buffer_s16, image_index);
     buffer_write(global.player_buffer, buffer_s32, image_blend);
+	buffer_write(global.player_buffer, buffer_s32, image_angle);
     buffer_write(global.player_buffer, buffer_string, PlayerName);
 	}
+
 with(objLight)
 	{
     buffer_write(global.player_buffer, buffer_s16, x);
@@ -31,6 +33,7 @@ with(objLight)
 	buffer_write(global.player_buffer, buffer_s16, sprite_index);
     buffer_write(global.player_buffer, buffer_s16, image_index);
     buffer_write(global.player_buffer, buffer_s32, image_blend);
+	buffer_write(global.player_buffer, buffer_s32, image_angle);
 	buffer_write(global.player_buffer, buffer_string, "");
 	}
 with(objTestDarkBlock)
@@ -40,8 +43,20 @@ with(objTestDarkBlock)
 	buffer_write(global.player_buffer, buffer_s16, sprite_index);
     buffer_write(global.player_buffer, buffer_s16, image_index);
     buffer_write(global.player_buffer, buffer_s32, image_blend);
+	buffer_write(global.player_buffer, buffer_s32, image_angle);
 	buffer_write(global.player_buffer, buffer_string, "");
 	}
+with(oServerHelper)
+	{
+    buffer_write(global.player_buffer, buffer_s16, x);
+    buffer_write(global.player_buffer, buffer_s16, y);
+	buffer_write(global.player_buffer, buffer_s16, sprite_index);
+    buffer_write(global.player_buffer, buffer_s16, image_index);
+    buffer_write(global.player_buffer, buffer_s32, image_blend);
+	buffer_write(global.player_buffer, buffer_s32, image_angle);
+	buffer_write(global.player_buffer, buffer_string, "");
+	}
+
 // Do basically the same thing as above when creating enemies
 var buffer_size = buffer_tell(player_buffer);
 // Now send all data... to all clients

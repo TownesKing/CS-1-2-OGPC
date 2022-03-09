@@ -7,7 +7,10 @@
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oPlayerRenderer",
+    "path": "objects/oPlayerRenderer/oPlayerRenderer.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 0,

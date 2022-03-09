@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Senviorment_ideas","path":"sprites/Senviorment_ideas/Senviorment_ideas.yy",},"order":0,},
     {"id":{"name":"sprHostServer","path":"sprites/sprHostServer/sprHostServer.yy",},"order":7,},
+    {"id":{"name":"oPlayerRenderer","path":"objects/oPlayerRenderer/oPlayerRenderer.yy",},"order":4,},
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},"order":1,},
     {"id":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"order":4,},
     {"id":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"order":3,},
