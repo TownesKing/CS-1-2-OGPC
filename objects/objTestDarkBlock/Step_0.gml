@@ -1,6 +1,8 @@
-if place_meeting(x,y,objLight){
+if place_meeting(x,y,objLight)
+{
 	image_index = 1;
 }
-else {
+else 
+{
 	image_index = 0;
 }

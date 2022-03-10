@@ -2,6 +2,7 @@
 // more complete, and if there are multiple
 
 
-function skipCutscene(){
+function skipCutscene()
+{
 	room_goto(rmTitleScreen);
 }

@@ -1,6 +1,7 @@
 /// @function		CreateCollisionMap();
 /// @description	Create a collision map from tiles
-function CreateCollisionMap() {
+function CreateCollisionMap() 
+{
 
 	var xx, yy, i, t, top, left, s, tilemap;
 
@@ -11,27 +12,22 @@ function CreateCollisionMap() {
 	// in the "simple" collision map.
 	for (yy = 0; yy < room_height; yy += 32;)
 	{
-	s="";
-	for (xx = 0; xx < room_width; xx += 32;)
+		s="";
+		for (xx = 0; xx < room_width; xx += 32;)
 	    {
-	    i = (xx / 32) + ((yy / 32) * (room_width / 32));
-	    global.map[i] = -1;
-	    t = tilemap_get_at_pixel(tilemap, xx, yy);
-	    if( tile_get_index(t) > 0 )
-	        {
-	        s = s + "1";
-	        global.map[i] = xx;            
-	        }
-		else
-	        {
-			s = s + "_";
+		    i = (xx / 32) + ((yy / 32) * (room_width / 32));
+		    global.map[i] = -1;
+		    t = tilemap_get_at_pixel(tilemap, xx, yy);
+		    if( tile_get_index(t) > 0 )
+		    {
+			    s = s + "1";
+			    global.map[i] = xx;            
+		    }
+			else
+			{
+				s = s + "_";
 			}
 	    }
 	show_debug_message(s);
 	}
-
-
-
-
-
 }

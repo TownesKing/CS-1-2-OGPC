@@ -1,6 +1,7 @@
 /// @function				SendKeepAlive(key, state);
 /// @description			Send a ping "event" to the server to keep the connection alive
-function SendKeepAlive() {
+function SendKeepAlive() 
+{
 
 	// Move to start of buffer. Networking ALWAYS takes the data from the START of a buffer.
 	buffer_seek(buff, buffer_seek_start, 0);
@@ -12,9 +13,9 @@ function SendKeepAlive() {
 	var size = network_send_packet(client, buff, buffer_tell(buff));
 	if size <= 0
 	{
-	network_destroy(client);
-	buffer_delete(buff);
-	game_restart();
+		network_destroy(client);
+		buffer_delete(buff);
+		game_restart();
 	}
 
 

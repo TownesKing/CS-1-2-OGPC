@@ -1,6 +1,7 @@
 /// @function		ConnectDisconnectClient();
 /// @description	Called on a connect or disconnect of a client
-function ConnectDisconnectClient() {
+function ConnectDisconnectClient() 
+{
 
 	// get connect or disconnect (1=connect)
 	var t = async_load[? "type"];
@@ -11,16 +12,16 @@ function ConnectDisconnectClient() {
     
 	// Connecting?
 	if t == network_type_connect
-		{
+	{
 		// add client to our list of connected clients
 		ds_list_add( socketlist, sock);
 		// Create a new player      
 		var inst = instance_create_layer(64, 192, "Instance_Layer", oPlayer);
 		// put this instance into a map, using the socket ID as the lookup
 		Clients[? sock] = inst;
-		}
+	}
 	else
-		{
+	{
 		// disconnect a CLIENT. First find the player instance using the socket ID as a lookup
 		var inst = Clients[? sock];
 		// Create a disconnecting "PUFF" at the current coords
@@ -31,10 +32,6 @@ function ConnectDisconnectClient() {
 		// Also delete the socket from our global list of connected clients
 		var index = ds_list_find_index(socketlist, sock);
 		ds_list_delete(socketlist,index);
-	    }
-
-
-
-
+	}
 
 }

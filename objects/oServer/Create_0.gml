@@ -38,17 +38,14 @@ socketlist = ds_list_create();
 server = network_create_server(global.ServerType, 6510, 32);
 if server < 0
 {    
-// If theres already a server running, shut down and delete.
-global.haveserver = false;
-ds_map_destroy(Clients);
-ds_list_destroy(socketlist);
-buffer_delete(broadcast_buffer);
-buffer_delete(player_buffer);
-instance_destroy();
+	// If theres already a server running, shut down and delete.
+	global.haveserver = false;
+	ds_map_destroy(Clients);
+	ds_list_destroy(socketlist);
+	buffer_delete(broadcast_buffer);
+	buffer_delete(player_buffer);
+	instance_destroy();
 }
 
 // Setup a timer so we can broadcast the server IP out to local clients looking...
 alarm[0] = room_speed; 
-
-
-

@@ -20,9 +20,9 @@ sprites = 0;
 var err = network_connect(client, global.connectip, 6510);
 if err != 0
 {
-// if we can't connect, show and error and restart... could be more graceful :)
-show_message("Error - can not connect to server!!");
-game_restart();
+	// if we can't connect, show and error and restart... could be more graceful :)
+	show_message("Error - can not connect to server!!");
+	game_restart();
 }
 
 // Client has connected to the server, so send our "player name"

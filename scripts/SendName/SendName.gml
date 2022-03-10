@@ -1,7 +1,8 @@
 /// @function					SendName(name);
 /// @description				Send a name "event" to the server
 /// @param	{string}	name	The name to send
-function SendName(argument0) {
+function SendName(argument0) 
+{
 
 	// Move to start of buffer. Networking ALWAYS takes the data from the START of a buffer.
 	buffer_seek(buff, buffer_seek_start, 0);

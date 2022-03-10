@@ -28,7 +28,7 @@ CreateCollisionMap();
 // Gets all the keys used (It's done this way for networking reasons)
 for(var i = 0; i < 6; i++;)
 {
-keys[i] = false;
+	keys[i] = false;
 }
 
 enum states 
@@ -38,4 +38,8 @@ enum states
 	
 }
 
-state = states.walking;
+states_array[states.walking] = StatePlayerWalking;
+states_array[states.jumping] = StatePlayerJumping;
+
+//sprite_array[states.walking] = sprPlayerWalking
+//sprite_array[states.jumping] = sprPlayerJumping
