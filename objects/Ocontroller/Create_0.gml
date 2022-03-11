@@ -1,9 +1,9 @@
 var areaheight = 0;
 
 var maxwidth = 5;
-var maxheight = 10;
+var maxheight = 8;
 var xx = 100;
-var yy = 125;
+var yy = 150;
 
 for (var i = 0; i < maxwidth; i++)
 {
@@ -12,7 +12,7 @@ for (var i = 0; i < maxwidth; i++)
 		instance_create_layer(xx, yy, "instances", Ocard);
 	
 		if (j == maxheight - 1){
-			yy += 150;
+			yy += 225;
 		}	
 		else{
 			yy += 225;
