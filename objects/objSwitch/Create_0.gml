@@ -3,7 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-global.switchPower = 0;
-
-movementSpeed = 8;
-jumpForce = -12;
+image_speed = 0;
