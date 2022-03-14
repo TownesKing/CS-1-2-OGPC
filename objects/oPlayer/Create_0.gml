@@ -18,7 +18,7 @@ illuminated = false;
 
 
 //Spawnpoint
-x = random_range(0,250);
+x = random_range(150,250);
 y = random_range(0,250);
 
 

@@ -4,5 +4,5 @@ global.ServerName = oTextBox.text;
 network_destroy(global.broadcast_server);
 global.broadcast_server = -1;
 
-room_goto(rmTest1);
+room_goto(rmMain);
 
