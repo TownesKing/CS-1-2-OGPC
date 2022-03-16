@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 3,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d870e325-8c3a-4d19-8fc3-1043db3aeb1e","path":"sprites/sprEntryHall/sprEntryHall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"d870e325-8c3a-4d19-8fc3-1043db3aeb1e","path":"sprites/sprEntryHall/sprEntryHall.yy",},"LayerId":{"name":"e2c9d89a-1cbf-4c3e-acd0-e90b5230a54f","path":"sprites/sprEntryHall/sprEntryHall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
