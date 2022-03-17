@@ -6,6 +6,3 @@ if global.haveserver == false
 }
 // Tells the server that there's another entity to draw
 global.EntityCount++;
-
-Stun = false
-timer = 0
