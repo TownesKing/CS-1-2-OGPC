@@ -8,6 +8,7 @@ jumpForce = -9;
 global.switchPower = 0;
 
 // Tells the server that another player has joined
+playernum = global.PlayerTotal;
 global.PlayerTotal++;
 
 // Creates the choices for player 1 or 2

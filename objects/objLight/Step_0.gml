@@ -15,7 +15,7 @@ y = oPlayerL.y + 32;
 if oPlayerL.keys[INTERACT_KEY] and timer = 0
 {
 	Stun = true;
-	timer = 3;
+	timer = 2;
 }
 else if timer > 0
 {
