@@ -41,7 +41,23 @@ function ServerReceivedData()
 			{
 		        key = JUMP_KEY;
 			}
+			else if key == ord("W")
+			{
+		        key = W_KEY;
+			}
 			else if key == ord("A")
+			{
+		        key = A_KEY;
+			}
+			else if key == ord("S")
+			{
+		        key = S_KEY;
+			}
+			else if key == ord("D")
+			{
+		        key = D_KEY;
+			}
+			else if key == ord("V")
 			{
 		        key = INTERACT_KEY;
 			}

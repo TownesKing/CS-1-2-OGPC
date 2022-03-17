@@ -28,7 +28,7 @@ PlayerName="";
 CreateCollisionMap();
 
 // Gets all the keys used (It's done this way for networking reasons)
-for(var i = 0; i < 6; i++;)
+for(var i = 0; i < 10; i++;)
 {
 	keys[i] = false;
 }
