@@ -113,6 +113,7 @@
     {"id":{"name":"ServerReceivedData","path":"scripts/ServerReceivedData/ServerReceivedData.yy",},"order":4,},
     {"id":{"name":"rmLeaderboard","path":"rooms/rmLeaderboard/rmLeaderboard.yy",},"order":4,},
     {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},"order":2,},
+    {"id":{"name":"menubeat","path":"sounds/menubeat/menubeat.yy",},"order":1,},
     {"id":{"name":"Teleport","path":"scripts/Teleport/Teleport.yy",},"order":0,},
     {"id":{"name":"oPlayerL","path":"objects/oPlayerL/oPlayerL.yy",},"order":9,},
     {"id":{"name":"sprLantern","path":"sprites/sprLantern/sprLantern.yy",},"order":3,},
