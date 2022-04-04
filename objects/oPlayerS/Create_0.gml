@@ -9,3 +9,4 @@ global.switchPower = 0;
 knight = true;
 movementSpeed = 8;
 jumpForce = -12;
+image_speed = 0;

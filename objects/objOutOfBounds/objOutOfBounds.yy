@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game",
-    "path": "folders/Objects/Game.yy",
+    "name": "Objects",
+    "path": "folders/Objects/Game/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objOutOfBounds",
