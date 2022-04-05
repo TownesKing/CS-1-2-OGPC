@@ -1,6 +1,6 @@
 /// @description	Define game constants
-function macros() {
-
+function macros() 
+{
 #macro NETWORK_LOGIN 0
 #macro NETWORK_PLAY 1
 
