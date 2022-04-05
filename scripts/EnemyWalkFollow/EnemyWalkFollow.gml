@@ -7,12 +7,12 @@ function EnemyWalkFollow()
 		distance = 0
 		Right = true
 	
-		if oPlayerL.x > x and (oPlayerL.x - x) > distance
+		if oPlayerS.x > x and (oPlayerS.x - x) > distance
 		{
 			distance = oPlayer.x - x;
 			Right = true
 		}
-		else if oPlayerL.x < x and (x - oPlayerL.x) > distance
+		else if oPlayerS.x < x and (x - oPlayerS.x) > distance
 		{
 			distance = x - oPlayer.x
 			Right = false
