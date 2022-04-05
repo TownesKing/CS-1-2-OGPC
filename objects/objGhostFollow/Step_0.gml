@@ -19,6 +19,6 @@ if timer > 0
 }
 else
 {
-	EnemyWalk();
+	EnemyWalkFollow();
 }
 
