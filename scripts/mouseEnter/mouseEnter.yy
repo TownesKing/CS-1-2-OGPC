@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "animation",
-    "path": "folders/Scripts/animation.yy",
+    "name": "GUI",
+    "path": "folders/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "mouseEnter",
