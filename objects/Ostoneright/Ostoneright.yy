@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Game/Objects.yy",
+    "name": "color changing tiles ",
+    "path": "folders/Objects/color changing tiles .yy",
   },
   "resourceVersion": "1.0",
   "name": "Ostoneright",

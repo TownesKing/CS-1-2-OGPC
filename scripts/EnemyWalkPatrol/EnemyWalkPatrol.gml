@@ -4,11 +4,11 @@ function EnemyWalkPatrol()
 {
 	if x < PatrolXLeft
 	{	
-		Right = !Right
+		xSpeed = 2
 	}
 	else if x > PatrolXRight
 	{
-		Right = !Right
+		xSpeed = -2
 	}
 	x = x + xSpeed;
 	if place_meeting(x,y,objTestDarkBlock){

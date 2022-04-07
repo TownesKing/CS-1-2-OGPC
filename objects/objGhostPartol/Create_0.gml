@@ -5,4 +5,3 @@
 event_inherited();
 xSpeed = 2;
 timer = 0
-Right = true
