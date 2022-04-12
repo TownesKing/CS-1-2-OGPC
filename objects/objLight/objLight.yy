@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprLight",
-    "path": "sprites/sprLight/sprLight.yy",
+    "name": "sLight",
+    "path": "sprites/sLight/sLight.yy",
   },
   "solid": false,
   "visible": true,

@@ -4,6 +4,6 @@ if other.keys[INTERACT_KEY] and !other.knight  and !used
 	global.PX = other.x;
 	global.PY = other.y;
 	other.lightbearer = true;
-	image_speed = 1;
+	image_speed = 3;
 	used = true;
 }

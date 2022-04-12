@@ -4,7 +4,7 @@ function CheckPlayerColisH()
 {
 	if place_meeting(x + xVector,y,objTestDarkBlock)
 		{
-		while !place_meeting(x + xDirection ,y,objTestDarkBlock)
+		while !place_meeting(x + xDirection,y,objTestDarkBlock)
 			{
 				x = x + xDirection;
 			}

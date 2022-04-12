@@ -3,6 +3,7 @@ movementSpeed = 4;
 sprintSpeed = 6;
 yVector = 0;
 xVector = 0;
+xDirection = 0;
 grv = 0.4;
 jumpForce = -9;
 global.switchPower = 0;

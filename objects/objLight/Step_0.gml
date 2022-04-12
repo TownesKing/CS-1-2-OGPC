@@ -20,5 +20,13 @@ if oPlayerL.keys[INTERACT_KEY] and timer = 0
 else if timer > 0
 {
 	Stun = false;
-	timer -= 1/room_speed;
+	timer -= 1/room_speed;	
+}
+if timer > 0.9
+{
+	image_index = 1;
+}
+else
+{
+	image_index = 0;
 }
