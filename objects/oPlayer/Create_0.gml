@@ -8,6 +8,7 @@ grv = 0.4;
 jumpForce = -9;
 global.switchPower = 0;
 
+if global.gamemode == 1 {
 // Tells the server that another player has joined
 playernum = global.PlayerTotal;
 global.PlayerTotal++;
@@ -17,11 +18,11 @@ knight = false;
 lightbearer = false;
 // Light is off by default
 illuminated = false;
-
+}
 
 //Spawnpoint
-x = random_range(150,250);
-y = random_range(0,250);
+x = 100;
+y = 100;
 
 
 image_speed = 0;

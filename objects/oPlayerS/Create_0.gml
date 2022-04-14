@@ -3,8 +3,10 @@
 
 // Inherit the parent event
 event_inherited();
+if global.gamemode == 1{
 x = global.PX
 y = global.PY
+}
 global.switchPower = 0;
 global.alive = true;
 knight = true;

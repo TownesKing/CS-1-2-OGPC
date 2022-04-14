@@ -1,1 +1,1 @@
-room_goto(rmServers);
+room_goto(rmConnection);
