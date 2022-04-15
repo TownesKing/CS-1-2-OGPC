@@ -12,4 +12,4 @@ global.alive = true;
 knight = true;
 movementSpeed = 8;
 jumpForce = -12;
-image_speed = 0;
+

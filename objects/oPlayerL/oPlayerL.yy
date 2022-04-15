@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayerL",
-    "path": "sprites/sprPlayerL/sprPlayerL.yy",
+    "name": "sprPlayerLWalk",
+    "path": "sprites/sprPlayerLWalk/sprPlayerLWalk.yy",
   },
   "solid": false,
   "visible": true,

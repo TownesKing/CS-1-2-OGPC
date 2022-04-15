@@ -25,7 +25,6 @@ x = 100;
 y = 100;
 
 
-image_speed = 0;
 PlayerName="";
 CreateCollisionMap();
 
@@ -44,6 +43,8 @@ enum states
 
 states_array[states.walking] = StatePlayerWalking;
 states_array[states.jumping] = StatePlayerJumping;
+
+
 
 //sprite_array[states.walking] = sprPlayerWalking
 //sprite_array[states.jumping] = sprPlayerJumping
