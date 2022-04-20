@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": -3,
-  "bbox_right": 528,
-  "bbox_top": 5,
-  "bbox_bottom": 119,
+  "bbox_left": 4,
+  "bbox_right": 1401,
+  "bbox_top": 1,
+  "bbox_bottom": 320,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 288,
-  "height": 128,
+  "width": 712,
+  "height": 316,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"fbc9202b-3646-4f42-9e01-c5631430505e","path":"sprites/sLight/sLight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fbc9202b-3646-4f42-9e01-c5631430505e","path":"sprites/sLight/sLight.yy",},"LayerId":{"name":"dd49d756-c299-4c38-908e-3f0a31891d6a","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"fbc9202b-3646-4f42-9e01-c5631430505e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9f5ab490-903f-4239-8e1d-71e5f584c9bb","path":"sprites/sLight/sLight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9f5ab490-903f-4239-8e1d-71e5f584c9bb","path":"sprites/sLight/sLight.yy",},"LayerId":{"name":"dd49d756-c299-4c38-908e-3f0a31891d6a","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"9f5ab490-903f-4239-8e1d-71e5f584c9bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"49c6e826-dbdd-4e1a-9b3e-1e1ba32892de","path":"sprites/sLight/sLight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"49c6e826-dbdd-4e1a-9b3e-1e1ba32892de","path":"sprites/sLight/sLight.yy",},"LayerId":{"name":"dd49d756-c299-4c38-908e-3f0a31891d6a","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","name":"49c6e826-dbdd-4e1a-9b3e-1e1ba32892de","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sLight","path":"sprites/sLight/sLight.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"67289f36-f2f2-4134-ae09-0704e0c01216","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbc9202b-3646-4f42-9e01-c5631430505e","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3053726d-c554-462b-b755-51e8534606b6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9f5ab490-903f-4239-8e1d-71e5f584c9bb","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8fe625ff-fb90-45e2-9ae1-c2310f9d5ac3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"49c6e826-dbdd-4e1a-9b3e-1e1ba32892de","path":"sprites/sLight/sLight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 64,
+    "yorigin": 158,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLight","path":"sprites/sLight/sLight.yy",},

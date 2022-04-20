@@ -1,15 +1,13 @@
 /// @description Rotation
-if mouse_x < oPlayerL.x
-{
-	x = oPlayerL.x - 35;
-	y = oPlayerL.y + 29;
-}
-else
+x = oPlayerL.x - 35;
+y = oPlayerL.y + 29;
+
+/*else
 {
 	x = oPlayerL.x + 10;
 	y = oPlayerL.y + 29;
 }
-
+*/
 
 
 //code to rotate the light

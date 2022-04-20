@@ -11,3 +11,5 @@ if global.gamemode == 1
 lightbearer = true;
 instance_create_layer(x,y,"Instances_Light",objLight);
 show_debug_message("E");
+
+global.lPoints = 0;

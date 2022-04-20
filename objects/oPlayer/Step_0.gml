@@ -2,6 +2,7 @@ CheckPlayerJump();
 CheckPlayerColisV();
 CheckPlayerColisH();
 CheckPlayerL_R();
+CheckPlayerAttacks();
 if object_index == oPlayer {CheckPlayerNumber();}
 
 show_debug_message(x + y)
@@ -10,7 +11,7 @@ if (xDirection !=0)
 {
 image_xscale = xDirection;
 }
-else
+/*else
 {
 	if mouse_x < x
 	{

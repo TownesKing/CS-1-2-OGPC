@@ -4,8 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-//no longer using????
-/*
 if keys[INTERACT_KEY]
 {
 	image_index = 1;
@@ -15,4 +13,5 @@ else
 {
 	image_index = 0;
 }
-*/
+
+global.sPoints = 0;
