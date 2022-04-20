@@ -1,1 +1,1 @@
-draw_text(x,y,global.lPoints);
+//draw_text(x,y,global.lPoints);

@@ -14,3 +14,4 @@ knight = true;
 movementSpeed = 8;
 jumpForce = -12;
 
+global.sPoints = 0;

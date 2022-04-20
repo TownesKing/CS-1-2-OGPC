@@ -1,10 +1,12 @@
-if place_meeting(x,y,oPlayerL){
-	global.lPoints = global.lPoints + 50;
+if place_meeting(x,y,oPlayerL)
+{
+	global.lPoints += 50;
 	instance_destroy();
 }
 
-if place_meeting(x,y,oPlayerS){
-	global.sPoints = global.sPoints + 50;
+if place_meeting(x,y,oPlayerS)
+{
+	global.sPoints += 50;
 	instance_destroy();
 }
 

@@ -1,1 +1,1 @@
-draw_text(x,y,global.sPoints);
+//draw_text(x,y,global.sPoints);

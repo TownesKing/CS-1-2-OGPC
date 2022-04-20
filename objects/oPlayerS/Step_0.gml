@@ -14,4 +14,4 @@ else
 	image_index = 0;
 }
 
-global.sPoints = 0;
+
