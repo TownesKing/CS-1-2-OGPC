@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oServerHelper",
-    "path": "objects/oServerHelper/oServerHelper.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
