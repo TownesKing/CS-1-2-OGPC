@@ -9,7 +9,6 @@ y = oPlayerL.y + 29;
 }
 */
 
-
 //code to rotate the light
 
 direction = point_direction(x,y,mouse_x,mouse_y);
@@ -20,15 +19,17 @@ show_debug_message(string(direction) + "--" + string(image_angle));
 
 //Stun code with timer for cooldown
 
-if oPlayerL.keys[INTERACT_KEY] and timer = 0
+if keyboard_check(ord("M")) and timer = 0
 {
 	Stun = true;
 	timer = 2;
+	
 }
 else if timer > 0
 {
 	Stun = false;
-	timer -= 1/room_speed;	
+	timer -= 1/room_speed;
+	
 }
 if timer > 0.9
 {

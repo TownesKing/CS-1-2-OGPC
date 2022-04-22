@@ -3,3 +3,12 @@
 if global.gamemode = 0{
 	draw_self();
 }
+
+if Stun
+{
+draw_text(10,10,"Yes")
+}
+else
+{
+draw_text(10,10,"No")
+}

@@ -3,7 +3,7 @@
     "name": "sprGhost",
     "path": "sprites/sprGhost/sprGhost.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -1,1 +1,1 @@
-instance_create_layer(0,0,"Instances",oCloseMenu0);
+instance_create_layer(x,y,"Instances",oCloseMenu0);
