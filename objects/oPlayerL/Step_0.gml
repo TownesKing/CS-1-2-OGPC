@@ -3,4 +3,11 @@
 
 // Inherit the parent event
 event_inherited();
-
+if xDirection = 0
+{
+	sprite_index = sprPlayerLIdle;	
+}
+if xDirection != 0
+{
+	sprite_index = sprPlayerLWalk;	
+}

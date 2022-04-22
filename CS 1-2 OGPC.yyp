@@ -6,6 +6,7 @@
     {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},"order":22,},
     {"id":{"name":"objViewControls","path":"objects/objViewControls/objViewControls.yy",},"order":20,},
     {"id":{"name":"sprHostServer","path":"sprites/sprHostServer/sprHostServer.yy",},"order":7,},
+    {"id":{"name":"sprPlayerLIdle","path":"sprites/sprPlayerLIdle/sprPlayerLIdle.yy",},"order":2,},
     {"id":{"name":"oPlayerRenderer","path":"objects/oPlayerRenderer/oPlayerRenderer.yy",},"order":4,},
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},"order":1,},
     {"id":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"order":4,},
@@ -250,7 +251,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "CS 1-2 OGPC",

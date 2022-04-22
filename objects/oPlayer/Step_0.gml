@@ -12,6 +12,7 @@ if (xDirection !=0)
 image_xscale = xDirection;
 }
 
+
 if keyboard_check_pressed(vk_escape){game_end();}
 /*else
 {
