@@ -6,4 +6,16 @@ function CheckPlayerAttacks(){
 			objLight.image_index = 1;
 		}
 	}
-}
+ if object_index == oPlayerS{
+		if keyboard_check_pressed(ord("E")){
+			sprite_index = sprPlayerSsword;
+			image_speed = 6;
+			for(var i = 0; i < 60; i++){
+			}
+			if i <= 60{
+			sprite_index = sprPlayerSwalk;
+			}
+			
+		}
+	 }
+ }
