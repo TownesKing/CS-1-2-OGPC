@@ -9,5 +9,5 @@ if global.haveserver == false
 global.EntityCount++;
 }
 
-Stun = false
+bright = false
 timer = 0

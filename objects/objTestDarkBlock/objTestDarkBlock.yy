@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "color changing tiles ",
-    "path": "folders/Objects/color changing tiles .yy",
+    "name": "Tiles",
+    "path": "folders/Objects/Game/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "objTestDarkBlock",

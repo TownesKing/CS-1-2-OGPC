@@ -2,24 +2,18 @@
 // You can write your code in this editor
 //collision detection with light
 
-if place_meeting(x, y, objLight) and objLight.Stun == true
+if place_meeting(x, y, objLight) and objLight.bright == true
 {
-	timer = 1;
-}
-//timer for stunn
-if timer > 0
-{
-	timer -= 1/room_speed;
-	
-	//attack code
+	xSpeed = 0;
 	if place_meeting(x,y,oPlayerS) and oPlayerS.sprite_index = sprPlayerSsword
 	{
-		instance_create_depth(x,y,0,oPuff);
-		instance_delete();
+		instance_destroy();
 	}
 }
+
 else
 {
+	xSpeed = 2;
 	EnemyWalk();
 }
 

@@ -1,3 +1,8 @@
 /// @description Teleports players
 
-teleport(other, TeleportX, TeleportY)
+if roomMode == objPortal{
+	teleport(other, TeleportX, TeleportY)
+}
+else{
+	room_goto(roomMode);
+}
