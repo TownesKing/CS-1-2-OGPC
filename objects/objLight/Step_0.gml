@@ -16,20 +16,6 @@ y = oPlayerL.y + 29;
 //image_angle = direction;
 if oPlayerL.xDirection != 0
 {
-	/*if oPlayer.xDirection == 1
-	{
-		if image_angle < 90 or image_angle > 270
-		{
-			image_angle = clamp(image_angle, 271, 280)
-		}
-	}else
-	{
-		if mouse_y < oPlayerL.y
-		{
-			image_angle = clamp(image_angle, 181, 269)
-		}
-		else image_angle = clamp(image_angle, 91, 180)
-	}*/
 	if oPlayerL.xDirection == 1
 	{
 		if mouse_x > x
@@ -56,7 +42,6 @@ if oPlayerL.xDirection != 0
 		image_angle = direction;
 		}
 	}
-	
 }
 else
 {
