@@ -2,18 +2,17 @@
 // You can write your code in this editor
 //collision detection with light
 
+
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
-	xSpeed = 0;
-	if place_meeting(x,y,oPlayerS) and oPlayerS.sprite_index = sprPlayerSsword
-	{
-		instance_destroy();
-	}
+CheckEnemyDie();
 }
-
 else
 {
-	xSpeed = 2;
+	if xSpeed == 0
+	{
+		xSpeed = xSpeedSave;
+	}
 	EnemyWalk();
 }
 

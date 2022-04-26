@@ -14,21 +14,21 @@ function CheckPlayerAttacks()
 		if keyboard_check_pressed(ord("E"))
 		{
 			sprite_index = sprPlayerSsword;
-			image_speed = 6;
-			
-			
-			if (image_index > image_number - 1) {
-			    sprite_index = sprPlayerSwalk;
-			}
-					
-					/*for(var i = 0; i < 60; i++)
-			{
-				if i <= 60
-				{
-					sprite_index = sprPlayerSwalk;
-				}			
-			}
-	*/
+			image_speed = 4;
 		}
+			
+		if (image_index > image_number - 1) 
+		{
+			sprite_index = sprPlayerSwalk;
+			image_speed = 1;
+		}		
+				/*for(var i = 0; i < 60; i++)
+		{
+			if i <= 60
+			{
+				sprite_index = sprPlayerSwalk;
+			}			
+		}
+*/
 	}
 }

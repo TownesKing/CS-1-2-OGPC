@@ -11,3 +11,4 @@ global.EntityCount++;
 
 bright = false
 timer = 0
+Look = true
