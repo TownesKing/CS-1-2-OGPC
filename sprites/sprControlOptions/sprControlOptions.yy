@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Settings",
+    "path": "folders/Sprites/GUI/Settings.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprControlOptions",

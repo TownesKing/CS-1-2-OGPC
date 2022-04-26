@@ -35,8 +35,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Game/Entities.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Game/Entities/Enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "objGhostPartol",

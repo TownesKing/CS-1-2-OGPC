@@ -152,8 +152,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Misc",
+    "path": "folders/Sprites/GUI/Misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBack",

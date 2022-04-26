@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Scroll Button",
+    "path": "folders/Objects/GUI/Misc/Scroll Button.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obar",

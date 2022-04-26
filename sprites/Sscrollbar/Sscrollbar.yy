@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Scroll",
+    "path": "folders/Sprites/GUI/Credits/Scroll.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sscrollbar",

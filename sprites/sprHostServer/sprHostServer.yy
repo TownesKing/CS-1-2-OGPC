@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Server Options",
+    "path": "folders/Sprites/GUI/Server Options.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprHostServer",

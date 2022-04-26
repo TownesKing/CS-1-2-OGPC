@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Game/Objects.yy",
+    "name": "Items",
+    "path": "folders/Objects/Game/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "objPortal",

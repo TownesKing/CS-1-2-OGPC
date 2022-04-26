@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Game/Entities.yy",
+    "name": "Player",
+    "path": "folders/Objects/Game/Entities/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlayerS",

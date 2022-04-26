@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Game",
-    "path": "folders/Sprites/Game.yy",
+    "name": "Items",
+    "path": "folders/Sprites/Game/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite51",

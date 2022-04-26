@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Settings",
+    "path": "folders/Objects/GUI/Settings.yy",
   },
   "resourceVersion": "1.0",
   "name": "objControlOptions",

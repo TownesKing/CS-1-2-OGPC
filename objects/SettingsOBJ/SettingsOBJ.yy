@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Main Menu",
+    "path": "folders/Objects/GUI/Main Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "SettingsOBJ",

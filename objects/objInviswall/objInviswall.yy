@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Game/Objects.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Game/Objects/Environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "objInviswall",

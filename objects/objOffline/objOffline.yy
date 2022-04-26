@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Server Options",
+    "path": "folders/Objects/GUI/Server Options.yy",
   },
   "resourceVersion": "1.0",
   "name": "objOffline",
