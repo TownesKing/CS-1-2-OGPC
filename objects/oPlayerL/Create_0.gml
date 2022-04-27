@@ -9,7 +9,9 @@ if global.gamemode == 1
 	y = global.PY
 }
 lightbearer = true;
-instance_create_layer(x,y,"Instances_Light",objLight);
+movementSpeed = 6;
+instance_create_depth(x,y,0,objLight);
+instance_create_layer(x,y,"Instances_BG",objLight);
 show_debug_message("E");
 
 global.lPoints = 0;

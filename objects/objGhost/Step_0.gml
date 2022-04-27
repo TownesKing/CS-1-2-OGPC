@@ -7,7 +7,7 @@ if place_meeting(x, y, objLight) and objLight.bright == true
 {
 CheckEnemyDie();
 }
-else
+/*else
 {
 	if xSpeed == 0
 	{
@@ -15,4 +15,4 @@ else
 	}
 	EnemyWalk();
 }
-
+*/

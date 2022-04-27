@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSwitch",
-    "path": "sprites/sprSwitch/sprSwitch.yy",
+    "name": "stoneplainbg",
+    "path": "sprites/stoneplainbg/stoneplainbg.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerS","path":"objects/oPlayerS/oPlayerS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"Destructable","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Game/Objects/Items.yy",
+    "name": "Tiles",
+    "path": "folders/Objects/Game/Tiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSwitch",
+  "name": "OstoneplainBGlit",
   "tags": [],
   "resourceType": "GMObject",
 }
