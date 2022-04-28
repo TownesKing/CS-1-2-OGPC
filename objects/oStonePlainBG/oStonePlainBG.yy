@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "stoneplainbg",
-    "path": "sprites/stoneplainbg/stoneplainbg.yy",
+    "name": "stoneBG",
+    "path": "sprites/stoneBG/stoneBG.yy",
   },
   "solid": false,
   "visible": true,

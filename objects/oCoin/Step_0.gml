@@ -1,15 +1,23 @@
-if place_meeting(x,y,oPlayerL)
+// timer stops pickup mainly for after enemy drop
+if timer > 1
 {
-	global.lPoints += 50;
-	instance_destroy();
-}
+	if place_meeting(x,y,oPlayerL)
+	{
+		global.lPoints += 50;
+		instance_destroy();
+	}
 
-if place_meeting(x,y,oPlayerS)
+	if place_meeting(x,y,oPlayerS)
+	{
+		global.sPoints += 50;
+		instance_destroy();
+	}
+}
+else
 {
-	global.sPoints += 50;
-	instance_destroy();
+timer += 1/room_speed
 }
-
+//lightup with light
 if place_meeting(x,y,objLight)
 {
 	image_index = 0;

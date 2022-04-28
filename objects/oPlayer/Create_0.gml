@@ -8,6 +8,9 @@ grv = 0.4;
 jumpForce = -9;
 global.switchPower = 0;
 attacking = false;
+hp = 3;
+iFrame = false;
+timer = 2;
 
 if global.gamemode == 1 {
 // Tells the server that another player has joined

@@ -33,3 +33,18 @@ if (xDirection = 0)
 	sprite	
 }
 */
+//iFrame chack and count down
+if (iFrame) 
+{
+	timer -=1/room_speed;
+	if timer < 0 
+	{
+		timer = 2;
+		iFrame = false;
+	}
+}
+//deth code
+if hp <= 0
+{
+room_restart();
+}

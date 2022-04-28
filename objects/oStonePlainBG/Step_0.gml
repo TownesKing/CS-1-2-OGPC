@@ -1,3 +1,4 @@
+//change with light
 if place_meeting(x,y,objLight)
 {
 	image_index = 0;
@@ -6,7 +7,7 @@ else
 {
 	image_index = 1;
 }
-
+//destroy if destructable tile
 if Destructable
 {
 	if place_meeting(x,y-3,oPlayerS) and other.image_index == 1

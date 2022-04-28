@@ -3,3 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+xSpeed = 2;
+timer = 5;
+waiting = true;
+moving = false;

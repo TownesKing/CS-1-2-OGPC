@@ -2,10 +2,15 @@
 // You can write your code in this editor
 //collision detection with light
 
-
+// Stuned stops oPlayerS from taking damage
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
-CheckEnemyDie();
+	CheckEnemyDie();
+	Stuned = true
+}
+else
+{
+	Stuned = false
 }
 /*else
 {

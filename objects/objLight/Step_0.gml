@@ -11,13 +11,12 @@ y = oPlayerL.y + 29;
 
 //code to rotate the light
 
-// Maybe make it so that the light cant angle behind the player
-//direction = point_direction(x,y,mouse_x,mouse_y);
-//image_angle = direction;
+// make it so that the light cant angle behind the player
 if oPlayerL.xDirection != 0
 {
 	if oPlayerL.xDirection == 1
 	{
+		//if to the right
 		if mouse_x > x
 		{
 			direction = point_direction(x,y,mouse_x,mouse_y);
@@ -25,8 +24,8 @@ if oPlayerL.xDirection != 0
 		}
 		else
 		{
-		direction = point_direction(x,y,x,mouse_y);
-		image_angle = direction;
+			direction = point_direction(x,y,x,mouse_y);
+			image_angle = direction;
 		}
 	}
 	else
@@ -38,15 +37,16 @@ if oPlayerL.xDirection != 0
 		}
 		else
 		{
-		direction = point_direction(x,y,x,mouse_y);
-		image_angle = direction;
+			direction = point_direction(x,y,x,mouse_y);
+			image_angle = direction;
 		}
 	}
 }
 else
 {
-direction = point_direction(x,y,mouse_x,mouse_y);
-image_angle = direction;
+	//rotates normally
+	direction = point_direction(x,y,mouse_x,mouse_y);
+	image_angle = direction;
 }
 
 
