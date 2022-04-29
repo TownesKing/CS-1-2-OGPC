@@ -27,7 +27,7 @@
     "path": "folders/Objects/GUI/Main Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objParallaxMainMenu",
+  "name": "objMenuCamera",
   "tags": [],
   "resourceType": "GMObject",
 }
