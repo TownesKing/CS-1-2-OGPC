@@ -44,7 +44,7 @@ if (iFrame)
 	}
 }
 //deth code
-if hp <= 0
+if global.Lhp <= 0 or global.Shp <= 0
 {
 room_restart();
 }

@@ -8,7 +8,8 @@ grv = 0.4;
 jumpForce = -9;
 global.switchPower = 0;
 attacking = false;
-hp = 3;
+global.Lhp = 3;
+global.Shp = 3;
 iFrame = false;
 timer = 2;
 
