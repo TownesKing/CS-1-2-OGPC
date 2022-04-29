@@ -422,7 +422,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"OstoneplainLit","path":"objects/OstoneplainLit/OstoneplainLit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":1152.0,"resourceVersion":"1.0","name":"inst_1DCCF28D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"OstoneplainLit","path":"objects/OstoneplainLit/OstoneplainLit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":1088.0,"resourceVersion":"1.0","name":"inst_480BC4DA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objTestDarkBlock","path":"objects/objTestDarkBlock/objTestDarkBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":25.5,"scaleY":9.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2784.0,"y":1216.0,"resourceVersion":"1.0","name":"inst_7C8FF5FA","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"objGhostFollow","path":"objects/objGhostFollow/objGhostFollow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3552.0,"y":512.0,"resourceVersion":"1.0","name":"inst_5B05B64B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objSkelington","path":"objects/objSkelington/objSkelington.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":896.0,"resourceVersion":"1.0","name":"inst_2C8332E3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"OstoneplainBGlit","path":"objects/OstoneplainBGlit/OstoneplainBGlit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4480.0,"y":896.0,"resourceVersion":"1.0","name":"inst_36880791","tags":[],"resourceType":"GMRInstance",},
@@ -1059,7 +1059,7 @@
     {"name":"inst_4B9AAC0C","path":"rooms/rmOfflineMain/rmOfflineMain.yy",},
     {"name":"inst_175B08E0","path":"rooms/rmOfflineMain/rmOfflineMain.yy",},
     {"name":"inst_7C8FF5FA","path":"rooms/rmOfflineMain/rmOfflineMain.yy",},
-    {"name":"inst_5B05B64B","path":"rooms/rmOfflineMain/rmOfflineMain.yy",},
+    {"name":"inst_2C8332E3","path":"rooms/rmOfflineMain/rmOfflineMain.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

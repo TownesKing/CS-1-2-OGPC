@@ -4,13 +4,13 @@
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
 	CheckEnemyDie();
+	speed = 0;
 	Stuned = true
 }
 else
 {
-	if xSpeed == 0{xSpeed = xSpeedSave;}
+	//if xSpeed == 0{xSpeed = xSpeedSave;}
 	//EnemyWalkFollow();
+	move_towards_point(oPlayerS.x,oPlayerS.y,3);
 	Stuned = false
 }
-
-move_towards_point(oPlayerS.x,oPlayerS.y,3);

@@ -18,7 +18,7 @@ else
 }
 
 //waits for player
-if place_meeting(x, y+25, oPlayerL)
+if place_meeting(x, y, oPlayerL)
 {
 	//finds player
 	waiting = false
@@ -28,19 +28,17 @@ if !waiting
 {
 	if timer > 0
 	{
-	timer -= 1/room_speed
+	timer --
 	}
-	else
+	else if sprite_index == Blank
 	{
-	y = y+64
-	/*
-		sprite_index = sprite for rizing skelington;
-		image_speed = 4;
-	*/
+		y = y-64;
+		sprite_index = SkelingtonRizing;
 	}
 }
 //once onther animation is over runs this code
-if (image_index > image_number - 1) //and sprite_index == sprite for rising skelington
+
+if (image_index > image_number - 1) and sprite_index == SkelingtonRizing
 		{
 			sprite_index = Skelington;
 			image_speed = 1;
