@@ -13,7 +13,7 @@ global.Shp = 3;
 iFrame = false;
 timer = 2;
 
-if global.gamemode == 1 {
+/*if global.gamemode == 1 {
 // Tells the server that another player has joined
 playernum = global.PlayerTotal;
 global.PlayerTotal++;
@@ -23,7 +23,7 @@ knight = false;
 lightbearer = false;
 // Light is off by default
 illuminated = false;
-}
+}*/
 
 //Spawnpoint
 x = 100;

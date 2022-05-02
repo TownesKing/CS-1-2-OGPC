@@ -1,4 +1,5 @@
 /// @description
+/* Server Stuff
 if global.gamemode == 1{
 if global.haveserver == false
 {
@@ -9,3 +10,5 @@ if global.haveserver == false
 // Tells the server that there's another entity to draw
 global.EntityCount++;
 }
+
+*/

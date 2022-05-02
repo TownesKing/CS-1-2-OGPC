@@ -4,5 +4,5 @@
 
 function skipCutscene()
 {
-	room_goto(rmTitleScreen);
+	room_goto(rmMainMenu);
 }

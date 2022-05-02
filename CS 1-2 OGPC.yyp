@@ -159,6 +159,7 @@
     {"id":{"name":"Ostoneplain","path":"objects/Ostoneplain/Ostoneplain.yy",},"order":2,},
     {"id":{"name":"sLight2Tutorial","path":"sprites/sLight2Tutorial/sLight2Tutorial.yy",},"order":3,},
     {"id":{"name":"sprMainMenuStars2","path":"sprites/sprMainMenuStars2/sprMainMenuStars2.yy",},"order":2,},
+    {"id":{"name":"sprCandle","path":"sprites/sprCandle/sprCandle.yy",},"order":7,},
     {"id":{"name":"rmConnection","path":"rooms/rmConnection/rmConnection.yy",},"order":8,},
     {"id":{"name":"sprJoinServer","path":"sprites/sprJoinServer/sprJoinServer.yy",},"order":0,},
     {"id":{"name":"sprMainMenuButton","path":"sprites/sprMainMenuButton/sprMainMenuButton.yy",},"order":8,},
@@ -315,7 +316,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "CS 1-2 OGPC",
