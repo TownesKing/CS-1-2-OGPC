@@ -7,3 +7,4 @@ xSpeed = 2;
 timer = 500;
 waiting = true;
 moving = false;
+debugText = "Blank"

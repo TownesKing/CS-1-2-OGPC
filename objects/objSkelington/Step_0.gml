@@ -11,6 +11,7 @@ if place_meeting(x, y, objLight) and objLight.bright == true
 else
 {
 	Stuned = false
+	//walks only when it is activated all the way
 	if sprite_index = Skelington
 	{
 	SkelingtonWalk()
@@ -25,14 +26,19 @@ if place_meeting(x, y, oPlayerL)
 }
 //starts timer for create
 if !waiting
-{
+{ 
+	
 	if timer > 0
 	{
+		
 	timer --
 	}
+	//so if it is diectivated
 	else if sprite_index == Blank
 	{
-		y = y-64;
+		
+		//it startsbeeing activated
+
 		sprite_index = SkelingtonRizing;
 	}
 }
@@ -40,6 +46,7 @@ if !waiting
 
 if (image_index > image_number - 1) and sprite_index == SkelingtonRizing
 		{
+			
 			sprite_index = Skelington;
 			image_speed = 1;
 		}

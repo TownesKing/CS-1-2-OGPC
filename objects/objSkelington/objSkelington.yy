@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Blank",
-    "path": "sprites/Blank/Blank.yy",
+    "name": "Skelington",
+    "path": "sprites/Skelington/Skelington.yy",
   },
   "solid": false,
   "visible": true,

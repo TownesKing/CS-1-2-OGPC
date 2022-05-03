@@ -41,6 +41,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":3,},
     {"id":{"name":"Ostoneup","path":"objects/Ostoneup/Ostoneup.yy",},"order":4,},
     {"id":{"name":"objGem","path":"objects/objGem/objGem.yy",},"order":5,},
+    {"id":{"name":"oSurface","path":"objects/oSurface/oSurface.yy",},"order":10,},
     {"id":{"name":"Object47","path":"objects/Object47/Object47.yy",},"order":0,},
     {"id":{"name":"sprMountain2","path":"sprites/sprMountain2/sprMountain2.yy",},"order":7,},
     {"id":{"name":"objCredits","path":"objects/objCredits/objCredits.yy",},"order":9,},
@@ -316,7 +317,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "CS 1-2 OGPC",
