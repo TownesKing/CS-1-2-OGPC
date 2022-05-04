@@ -1,5 +1,6 @@
 if keyboard_check(ord("E")){
 	image_index = 2;
+	audio_play_sound(Lever,0,false);
 	if room = rmOfflineMain{
 		oPlayerL.x = other.x;
 		oPlayerL.y = other.y;

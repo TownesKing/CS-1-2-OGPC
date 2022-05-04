@@ -60,6 +60,8 @@ if mouse_check_button(mb_left)
 {
 	bright = true;
 	image_index = 1;
+	// The sound repeating itself if intentional
+	audio_play_sound(Brighten,0,false);
 }
 else
 {

@@ -3,3 +3,4 @@
 
 global.gamemode = 0;
 room_goto(rmOfflineMain);
+audio_play_sound(Click,0,false);
