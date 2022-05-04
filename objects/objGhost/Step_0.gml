@@ -5,19 +5,11 @@
 // Stuned stops oPlayerS from taking damage
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
+	//stuns with light
 	CheckEnemyDie();
-	Stuned = true
+	Stuned = true;
 }
 else
 {
-	Stuned = false
+	Stuned = false;
 }
-/*else
-{
-	if xSpeed == 0
-	{
-		xSpeed = xSpeedSave;
-	}
-	EnemyWalk();
-}
-*/

@@ -19,6 +19,7 @@ else
 {
 timer += 1/room_speed
 }
+/*
 //lighuoup with light
 if place_meeting(x,y,objLight)
 {

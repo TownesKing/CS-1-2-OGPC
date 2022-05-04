@@ -4,7 +4,5 @@
 // Inherit the parent event
 event_inherited();
 xSpeed = 2;
-timer = 500;
+timer = 200;
 waiting = true;
-moving = false;
-debugText = "Blank"

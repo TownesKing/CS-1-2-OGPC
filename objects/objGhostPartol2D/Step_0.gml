@@ -3,11 +3,13 @@
 //collision detection with light
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
+	//stuns if light is shining
 	CheckEnemyDie();
 	Stuned = true
 }
 else
 {
+	//else moves and saves var so stunn does not mess up the patroll
 	if xSpeed == 0
 	{
 		xSpeed = xSpeedSave;

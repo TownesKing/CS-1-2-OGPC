@@ -5,8 +5,8 @@
 event_inherited();
 if global.gamemode == 1
 {
-	x = global.PX
-	y = global.PY
+	x = global.PX;
+	y = global.PY;
 }
 lightbearer = true;
 movementSpeed = 6;

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 xDirection = 2;
-timer = 0
+timer = 0;
