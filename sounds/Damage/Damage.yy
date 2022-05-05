@@ -14,8 +14,8 @@
   "soundFile": "Damage.wav",
   "duration": 0.301247,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Player",
+    "path": "folders/Sounds/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "Damage",

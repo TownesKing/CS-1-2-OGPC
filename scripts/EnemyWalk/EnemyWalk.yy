@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Game",
-    "path": "folders/Scripts/Game.yy",
+    "name": "Enemy",
+    "path": "folders/Scripts/Game/Enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyWalk",

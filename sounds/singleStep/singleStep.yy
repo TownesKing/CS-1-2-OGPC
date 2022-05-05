@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Brighten.wav",
-  "duration": 0.636122,
+  "soundFile": "singleStep.wav",
+  "duration": 1.5,
   "parent": {
     "name": "Player",
     "path": "folders/Sounds/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Brighten",
+  "name": "singleStep",
   "tags": [],
   "resourceType": "GMSound",
 }

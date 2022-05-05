@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Game",
-    "path": "folders/Scripts/Game.yy",
+    "name": "Player",
+    "path": "folders/Scripts/Game/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script27",
+  "name": "CheckEnemyDie",
   "tags": [],
   "resourceType": "GMScript",
 }

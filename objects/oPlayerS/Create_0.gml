@@ -12,6 +12,6 @@ global.switchPower = 0;
 global.alive = true;
 knight = true;
 movementSpeed = 8;
-jumpForce = -12;
+jumpForce = -14;
 
 global.sPoints = 0;

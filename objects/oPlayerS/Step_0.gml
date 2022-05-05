@@ -3,19 +3,11 @@
 
 // Inherit the parent event
 event_inherited();
-if xDirection = 0
+if xDirection = 0 and !(sprite_index = sprPlayerSsword)
 {
 	sprite_index = sprPlayerSIdle;	
-	if mouse_x < x
-	{
-	image_xscale = -1;
-	}
-	else
-	{
-	image_xscale = 1;
-	}
 }
-if xDirection != 0
+if xDirection != 0 and !(sprite_index = sprPlayerSsword)
 {
 	sprite_index = sprPlayerSwalk;	
 }
