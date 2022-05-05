@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tiles",
-    "path": "folders/Objects/Game/Tiles.yy",
+    "name": "NormalTiles",
+    "path": "folders/Objects/Game/Tiles/NormalTiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "Ostoneright",

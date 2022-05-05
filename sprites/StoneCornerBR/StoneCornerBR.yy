@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tilesets",
-    "path": "folders/Sprites/Game/Tilesets.yy",
+    "name": "Normal",
+    "path": "folders/Sprites/Game/Tilesets/Normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "StoneCornerBR",
