@@ -2,6 +2,15 @@
 x = oPlayerL.x - 35;
 y = oPlayerL.y + 29;
 
+
+_mouseUp = keyboard_check(ord("U"));
+_mouseDown = keyboard_check(ord("J"));
+
+_mouse_offset -= _mouseUp * mouseSensitivity;
+
+_mouse_offset += _mouseDown * mouseSensitivity;
+
+_mouse_y = oPlayerL.y + _mouse_offset
 /*else
 {
 	x = oPlayerL.x + 10;
@@ -10,16 +19,16 @@ y = oPlayerL.y + 29;
 */
 
 //code to rotate the light
-
 // make it so that the light cant angle behind the player
 if oPlayerL.xDirection != 0
 {
 	if oPlayerL.xDirection == 1
 	{
+		facing = 2
 		//if to the right
-		if mouse_x > x
+		if (oPlayerL.x * oPlayerL.xDirection) > x
 		{
-			direction = point_direction(x,y,mouse_x,mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
 			image_angle = direction;
 		}
 		else
@@ -30,9 +39,10 @@ if oPlayerL.xDirection != 0
 	}
 	else
 	{
-		if mouse_x < x
+		facing = -1
+		if (oPlayerL.x * oPlayerL.xDirection) < x
 		{
-			direction = point_direction(x,y,mouse_x,mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
 			image_angle = direction;
 		}
 		else
@@ -45,7 +55,7 @@ if oPlayerL.xDirection != 0
 else
 {
 	//rotates normally
-	direction = point_direction(x,y,mouse_x,mouse_y);
+	direction = point_direction(x,y,(oPlayerL.x * facing),_mouse_y);
 	image_angle = direction;
 }
 

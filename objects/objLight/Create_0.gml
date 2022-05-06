@@ -12,3 +12,6 @@ global.EntityCount++;
 bright = false
 timer = 0
 Look = true
+facing = 1
+mouseSensitivity = 40;
+_mouse_y = oPlayerL.y
