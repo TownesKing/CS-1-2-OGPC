@@ -260,6 +260,7 @@
     {"id":{"name":"sprOneScreenControls","path":"sprites/sprOneScreenControls/sprOneScreenControls.yy",},"order":1,},
     {"id":{"name":"menubeat","path":"sounds/menubeat/menubeat.yy",},"order":1,},
     {"id":{"name":"Teleport","path":"scripts/Teleport/Teleport.yy",},"order":0,},
+    {"id":{"name":"sprPlayerSAttk","path":"sprites/sprPlayerSAttk/sprPlayerSAttk.yy",},"order":4,},
     {"id":{"name":"oPlayerL","path":"objects/oPlayerL/oPlayerL.yy",},"order":1,},
     {"id":{"name":"sprLantern","path":"sprites/sprLantern/sprLantern.yy",},"order":2,},
     {"id":{"name":"objPortal","path":"objects/objPortal/objPortal.yy",},"order":6,},
