@@ -10,4 +10,9 @@ if keyboard_check(ord("E")){
 		oPlayerL.x = other.x;
 		oPlayerL.y = other.y;
 	}
+	// Doesn't work yet
+	if x == 5216 and y == 448 {
+		bridge = instance_create_layer(4736,800,"Instances",objSwitchBlock);
+		bridge.image_xscale = 5.75;
+	}
 }

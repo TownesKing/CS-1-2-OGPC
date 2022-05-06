@@ -19,13 +19,13 @@ else
 {
 timer += 1/room_speed
 }
-/*
+
 //lightup with light
 if place_meeting(x,y,objLight)
 {
-	image_index = 0;
+	sprite_index = sCoin;
 }
 else 
 {
-	image_index = 1;
+	sprite_index = sCoinDark;
 }
