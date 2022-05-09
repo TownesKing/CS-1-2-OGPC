@@ -14,4 +14,5 @@ timer = 0
 Look = true
 facing = 1
 mouseSensitivity = 40;
+_mouse_offset = 0;
 _mouse_y = oPlayerL.y
