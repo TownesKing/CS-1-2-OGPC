@@ -20,3 +20,13 @@ if place_meeting(mouse_x, mouse_y, objStartButton)
 			y = y - 10
 		}
 	}
+	
+if keyboard_check(vk_down)
+{
+	y += 10;
+}
+
+if keyboard_check(vk_up)
+{
+	y -= 10;
+}
