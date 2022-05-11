@@ -12,6 +12,7 @@ global.Lhp = 3;
 global.Shp = 3;
 iFrame = false;
 timer = 2;
+hasKey = false;
 
 /*if global.gamemode == 1 {
 // Tells the server that another player has joined

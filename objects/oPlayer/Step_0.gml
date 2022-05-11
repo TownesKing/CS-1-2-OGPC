@@ -36,3 +36,7 @@ if global.Lhp <= 0 or global.Shp <= 0
 {
 room_restart();
 }
+
+if keyboard_check(ord("B")){
+	room_goto(rmBoss1);
+}

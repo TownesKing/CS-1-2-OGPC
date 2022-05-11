@@ -6,13 +6,12 @@ if keyboard_check(ord("E")){
 		oPlayerL.y = other.y;
 		layer_sprite_create("Assets_1",2826,658,sSword2Tutorial);
 	}
-	if x == 3840 and y == 736 {
+	if x == 3840 and y == 704 {
 		oPlayerL.x = other.x;
 		oPlayerL.y = other.y;
 	}
 	// Doesn't work yet
 	if x == 5216 and y == 448 {
-		bridge = instance_create_layer(4736,800,"Instances",objSwitchBlock);
-		bridge.image_xscale = 5.75;
+		instance_create_depth(4736,800,-100,oBridge);
 	}
 }

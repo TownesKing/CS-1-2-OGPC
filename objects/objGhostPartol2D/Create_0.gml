@@ -6,3 +6,4 @@ event_inherited();
 xDirection = 2;
 yDirection = 2;
 timer = 0;
+Stunned = false;

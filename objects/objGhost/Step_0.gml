@@ -7,9 +7,9 @@ if place_meeting(x, y, objLight) and objLight.bright == true
 {
 	//stuns with light
 	CheckEnemyDie();
-	Stuned = true;
+	Stunned = true;
 }
 else
 {
-	Stuned = false;
+	Stunned = false;
 }

@@ -5,7 +5,7 @@ if place_meeting(x, y, objLight) and objLight.bright == true
 {
 	//stuns if light is shining
 	CheckEnemyDie();
-	Stuned = true
+	Stunned = true
 }
 else
 {
@@ -15,5 +15,5 @@ else
 		xSpeed = xSpeedSave;
 	}
 	EnemyWalkPatrol2D();
-	Stuned = false
+	Stunned = false
 }

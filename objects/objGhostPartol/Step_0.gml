@@ -5,11 +5,11 @@ if place_meeting(x, y, objLight) and objLight.bright == true
 {
 	//stun if the light is on
 	CheckEnemyDie();
-	Stuned = true;
+	Stunned = true;
 }
 else
 {
 	//else move around
 	EnemyWalkPatrol();
-	Stuned = false;
+	Stunned = false;
 }

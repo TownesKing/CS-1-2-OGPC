@@ -10,12 +10,12 @@ else
 {
 	Stuned = false;
 	//walks only when it is activated all the way
-	if sprite_index = Skelington
+	if sprite_index = sprSkellington
 	{
 		//checks if light is shining on it
 		if place_meeting(x, y, objLight) and objLight.bright == true
 		{
-			//if so stunds and can be killed
+			//if so stuns and can be killed
 			CheckEnemyDie();
 			Stuned = true;
 		}
@@ -45,11 +45,11 @@ if !waiting
 	else if sprite_index == Blank
 	{
 		//it startsbeeing activated
-		sprite_index = SkelingtonRizing;
+		sprite_index = sprSkelingtonRising;
 	}
 }
 //once onther animation is over runs this code
-if (image_index > image_number - 1) and sprite_index == SkelingtonRizing
+if (image_index > image_number - 1) and sprite_index == sprSkelingtonRising
 {
-	sprite_index = Skelington;
+	sprite_index = sprSkellington;
 }
