@@ -206,6 +206,7 @@
     {"id":{"name":"CreditsOBJ","path":"objects/CreditsOBJ/CreditsOBJ.yy",},"order":0,},
     {"id":{"name":"SendName","path":"scripts/SendName/SendName.yy",},"order":3,},
     {"id":{"name":"sprPlayerSsword","path":"sprites/sprPlayerSsword/sprPlayerSsword.yy",},"order":2,},
+    {"id":{"name":"sprSwordCutscene","path":"sprites/sprSwordCutscene/sprSwordCutscene.yy",},"order":11,},
     {"id":{"name":"Ostoneplain","path":"objects/Ostoneplain/Ostoneplain.yy",},"order":4,},
     {"id":{"name":"sLight2Tutorial","path":"sprites/sLight2Tutorial/sLight2Tutorial.yy",},"order":3,},
     {"id":{"name":"sprMainMenuStars2","path":"sprites/sprMainMenuStars2/sprMainMenuStars2.yy",},"order":2,},
