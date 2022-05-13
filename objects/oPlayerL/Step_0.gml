@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 //rotates player with mouse location in idle
-if xDirection = 0
+if xDirection = 0 and global.noLight = false
 {
 	sprite_index = sprPlayerLIdle;	
 	if objLight.facing < 1

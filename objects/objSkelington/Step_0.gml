@@ -4,11 +4,11 @@
 if place_meeting(x, y, objLight) and objLight.bright == true
 {
 	CheckEnemyDie();
-	Stuned = true;
+	Stunned = true;
 }
 else
 {
-	Stuned = false;
+	Stunned = false;
 	//walks only when it is activated all the way
 	if sprite_index = sprSkellington
 	{
@@ -17,13 +17,13 @@ else
 		{
 			//if so stuns and can be killed
 			CheckEnemyDie();
-			Stuned = true;
+			Stunned = true;
 		}
 		else
 		{
 			//else it walks
 			SkelingtonWalk()
-			Stuned = false;
+			Stunned = false;
 		}
 	}
 }

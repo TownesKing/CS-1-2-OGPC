@@ -21,6 +21,7 @@ if place_meeting(x,y,objLight) and objLight.bright{
 	walkSpeed = walkSpeed / 2;
 	image_index = 1;
 	brightened = true;
+	Stunned = true;
 		if place_meeting(x,y,oPlayerS) and keyboard_check_pressed(ord("E")) and damageCooldown <=0{
 			bossHp --;
 			damage ++;
@@ -30,6 +31,7 @@ if place_meeting(x,y,objLight) and objLight.bright{
 
 else{
 	brightened = false;
+	Stunned = false;
 	image_index = 0;
 }
 
@@ -44,7 +46,7 @@ if bossHp < 1
 	room_goto(rmCredits)
 	}
 // Steal light for a few seconds
-if damage = 2{
+if damage = 9{
 	damage = 0;
 	global.noLight = true;
 }
