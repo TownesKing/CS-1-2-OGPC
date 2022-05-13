@@ -68,7 +68,6 @@
     {"id":{"name":"sprStart","path":"sprites/sprStart/sprStart.yy",},"order":3,},
     {"id":{"name":"sKey","path":"sprites/sKey/sKey.yy",},"order":10,},
     {"id":{"name":"mouseEnter","path":"scripts/mouseEnter/mouseEnter.yy",},"order":6,},
-    {"id":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},"order":7,},
     {"id":{"name":"Sbaseset","path":"sprites/Sbaseset/Sbaseset.yy",},"order":1,},
     {"id":{"name":"sSwordTutorial","path":"sprites/sSwordTutorial/sSwordTutorial.yy",},"order":4,},
     {"id":{"name":"SendKey","path":"scripts/SendKey/SendKey.yy",},"order":2,},
@@ -308,7 +307,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rmCutscene1","path":"rooms/rmCutscene1/rmCutscene1.yy",},},
     {"roomId":{"name":"rmCredits","path":"rooms/rmCredits/rmCredits.yy",},},
-    {"roomId":{"name":"rmTitleScreen","path":"rooms/rmTitleScreen/rmTitleScreen.yy",},},
     {"roomId":{"name":"rmSettings","path":"rooms/rmSettings/rmSettings.yy",},},
     {"roomId":{"name":"rmServers","path":"rooms/rmServers/rmServers.yy",},},
     {"roomId":{"name":"rmLeaderboard","path":"rooms/rmLeaderboard/rmLeaderboard.yy",},},
