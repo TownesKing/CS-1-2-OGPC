@@ -23,7 +23,41 @@ _mouse_y = oPlayerL.y + _mouse_offset
 if oPlayerL.xDirection != 0
 {
 	if oPlayerL.xDirection == 1
-	{}}
+	{
+		facing = 2
+		//if to the right
+		if (oPlayerL.x * oPlayerL.xDirection) > x
+		{
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
+			image_angle = direction;
+		}
+		else
+		{
+			direction = point_direction(x,y,x,mouse_y);
+			image_angle = direction;
+		}
+	}
+	else
+	{
+		facing = -1
+		if (oPlayerL.x * oPlayerL.xDirection) < x
+		{
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
+			image_angle = direction;
+		}
+		else
+		{
+			direction = point_direction(x,y,x,mouse_y);
+			image_angle = direction;
+		}
+	}
+}
+else
+{
+	//rotates normally
+	direction = point_direction(x,y,(oPlayerL.x * facing),_mouse_y);
+	image_angle = direction;
+}
 	
 
 

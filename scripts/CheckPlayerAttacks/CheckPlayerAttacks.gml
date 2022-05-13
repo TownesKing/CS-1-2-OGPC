@@ -13,8 +13,8 @@ function CheckPlayerAttacks()
 	{
 		if keyboard_check_pressed(ord("E"))
 		{
-			sprite_index = sprPlayerSsword;
-			image_speed = 4;
+			sprite_index = sprPlayerSAttk;
+			image_speed = 2;
 		}
 			
 		if (image_index > image_number - 1) 
