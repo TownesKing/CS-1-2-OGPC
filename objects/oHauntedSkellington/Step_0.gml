@@ -23,6 +23,7 @@ if place_meeting(x,y,objLight) and objLight.bright{
 	brightened = true;
 		if place_meeting(x,y,oPlayerS) and keyboard_check_pressed(ord("E")) and damageCooldown <=0{
 			bossHp --;
+			damage ++;
 			damageCooldown = 20;
 		}
 }
@@ -37,4 +38,10 @@ if bossHp = 13 and not angered{
 	angered = true;
 	instance_create_depth(x,y,-100,objGhostFollow);
 	instance_create_depth(x,y+100,-100,objGhostPartol);
+}
+
+// Steal light for a few seconds
+if damage = 2{
+	damage = 0;
+	global.noLight = true;
 }

@@ -1,2 +1,2 @@
-global.EntityCount--;
+//global.EntityCount--;
 

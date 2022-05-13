@@ -11,3 +11,5 @@ if xDirection != 0 and !(sprite_index = sprPlayerSsword)
 {
 	sprite_index = sprPlayerSwalk;	
 }
+
+

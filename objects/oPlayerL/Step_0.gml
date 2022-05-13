@@ -20,3 +20,11 @@ if xDirection != 0
 {
 	sprite_index = sprPlayerLWalk;	
 }
+
+if global.noLight = true{
+	reLight --;
+	if reLight < 0{
+		instance_create_layer(x,y,"Instances_BG",objLight);
+		global.noLight = false;
+	}
+}

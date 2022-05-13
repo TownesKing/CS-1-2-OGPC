@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprRoomLight",
-    "path": "sprites/sprRoomLight/sprRoomLight.yy",
+    "name": "sMouse",
+    "path": "sprites/sMouse/sMouse.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Game/Objects.yy",
+    "name": "Misc",
+    "path": "folders/Objects/GUI/Misc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objRoomLight",
+  "name": "oMouse",
   "tags": [],
   "resourceType": "GMObject",
 }

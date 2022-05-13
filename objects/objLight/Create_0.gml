@@ -16,3 +16,4 @@ facing = 1
 mouseSensitivity = 10;
 _mouse_offset = 0;
 _mouse_y = oPlayerL.y
+stolen = false;

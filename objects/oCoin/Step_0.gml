@@ -21,7 +21,7 @@ timer += 1/room_speed
 }
 
 //lightup with light
-if place_meeting(x,y,objLight)
+if place_meeting(x,y,objLight) or place_meeting(x,y,objRoomLight)
 {
 	sprite_index = sCoin;
 }

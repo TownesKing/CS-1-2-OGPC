@@ -28,12 +28,12 @@ if oPlayerL.xDirection != 0
 		//if to the right
 		if (oPlayerL.x * oPlayerL.xDirection) > x
 		{
-			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),_mouse_y);
 			image_angle = direction;
 		}
 		else
 		{
-			direction = point_direction(x,y,x,mouse_y);
+			direction = point_direction(x,y,x,_mouse_y);
 			image_angle = direction;
 		}
 	}
@@ -42,12 +42,12 @@ if oPlayerL.xDirection != 0
 		facing = -1
 		if (oPlayerL.x * oPlayerL.xDirection) < x
 		{
-			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),_mouse_y);
 			image_angle = direction;
 		}
 		else
 		{
-			direction = point_direction(x,y,x,mouse_y);
+			direction = point_direction(x,y,x,_mouse_y);
 			image_angle = direction;
 		}
 	}
@@ -97,5 +97,14 @@ else
 }
 */
 
+if global.noLight = true{
+	image_index = 2;
+	image_xscale = 0.1;
+	image_yscale = 0.1;
+	move_towards_point(oHauntedSkellington.x,oHauntedSkellington.y,5)
+	if place_meeting(x,y,oHauntedSkellington){
+		instance_destroy();
+	}
+}
 
 

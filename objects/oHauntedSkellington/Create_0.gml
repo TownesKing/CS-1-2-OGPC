@@ -6,3 +6,4 @@ brightened = false;
 damageCooldown = 20;
 bossHp = 25;
 angered = false;
+damage = 0;

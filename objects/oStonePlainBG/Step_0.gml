@@ -1,5 +1,5 @@
 //change with light
-if place_meeting(x,y,objLight)
+if place_meeting(x,y,objLight) or place_meeting(x,y,objRoomLight)
 {
 	image_index = 0;
 }
