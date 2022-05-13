@@ -27,6 +27,7 @@
     {"id":{"name":"sprNavCredits","path":"sprites/sprNavCredits/sprNavCredits.yy",},"order":0,},
     {"id":{"name":"sprAmbience","path":"sprites/sprAmbience/sprAmbience.yy",},"order":2,},
     {"id":{"name":"oDeadStone","path":"objects/oDeadStone/oDeadStone.yy",},"order":0,},
+    {"id":{"name":"Sound16","path":"sounds/Sound16/Sound16.yy",},"order":8,},
     {"id":{"name":"BlueStoneSideBottom","path":"sprites/BlueStoneSideBottom/BlueStoneSideBottom.yy",},"order":5,},
     {"id":{"name":"sprGhost1D","path":"sprites/sprGhost1D/sprGhost1D.yy",},"order":1,},
     {"id":{"name":"sMoveTutorial","path":"sprites/sMoveTutorial/sMoveTutorial.yy",},"order":1,},
@@ -396,7 +397,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "CS 1-2 OGPC",

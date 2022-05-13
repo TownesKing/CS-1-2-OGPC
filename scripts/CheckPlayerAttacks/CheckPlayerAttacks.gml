@@ -13,6 +13,7 @@ function CheckPlayerAttacks()
 	{
 		if keyboard_check_pressed(ord("E"))
 		{
+			audio_play_sound(Sound16, 50, 0)
 			sprite_index = sprPlayerSsword;
 			image_speed = 2;
 		}
