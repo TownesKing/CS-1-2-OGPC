@@ -39,7 +39,10 @@ if bossHp = 13 and not angered{
 	instance_create_depth(x,y,-100,objGhostFollow);
 	instance_create_depth(x,y+100,-100,objGhostPartol);
 }
-
+if bossHp < 1
+	{
+	room_goto(rmCredits)
+	}
 // Steal light for a few seconds
 if damage = 2{
 	damage = 0;

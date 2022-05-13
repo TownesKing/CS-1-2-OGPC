@@ -10,7 +10,7 @@ _mouse_offset -= _mouseUp * mouseSensitivity;
 
 _mouse_offset += _mouseDown * mouseSensitivity;
 
-_mouse_y = oPlayerL.y + _mouse_offset
+_mouse_y = oPlayerL.y + _mouse_offset*5;
 /*else
 {
 	x = oPlayerL.x + 10;
@@ -28,7 +28,7 @@ if oPlayerL.xDirection != 0
 		//if to the right
 		if (oPlayerL.x * oPlayerL.xDirection) > x
 		{
-			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),_mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * facing),_mouse_y);
 			image_angle = direction;
 		}
 		else
@@ -42,7 +42,7 @@ if oPlayerL.xDirection != 0
 		facing = -1
 		if (oPlayerL.x * oPlayerL.xDirection) < x
 		{
-			direction = point_direction(x,y,(oPlayerL.x * oPlayerL.xDirection),_mouse_y);
+			direction = point_direction(x,y,(oPlayerL.x * facing),_mouse_y);
 			image_angle = direction;
 		}
 		else
@@ -72,7 +72,7 @@ if mouse_check_button(mb_left)
 	bright = true;
 	image_index = 1;
 	// The sound repeating itself if intentional
-	audio_play_sound(Brighten,0,false);
+	//audio_play_sound(Brighten,0,false);
 }
 else
 {

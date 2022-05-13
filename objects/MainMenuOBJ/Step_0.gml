@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-mouseEnter()
+if place_meeting(x,y,oMouse) and oMouse.click
+	{
+	room_goto(rmMainMenu)
+	}

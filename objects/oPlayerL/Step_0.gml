@@ -7,7 +7,7 @@ event_inherited();
 if xDirection = 0
 {
 	sprite_index = sprPlayerLIdle;	
-	if mouse_x < x
+	if objLight.facing < 1
 	{
 	image_xscale = -1;
 	}
