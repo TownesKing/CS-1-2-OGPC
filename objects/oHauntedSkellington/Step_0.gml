@@ -36,7 +36,7 @@ else{
 }
 
 // Summon Ghosts at half health
-if bossHp = 13 and not angered{
+if bossHp = 6 and not angered{
 	angered = true;
 	instance_create_depth(x,y,-100,objGhostFollow);
 	instance_create_depth(x,y+100,-100,objGhostPartol);
@@ -46,7 +46,12 @@ if bossHp < 1
 	room_goto(rmCredits)
 	}
 // Steal light for a few seconds
-if damage = 9{
+if damage = 2{
 	damage = 0;
 	global.noLight = true;
+}
+
+if bossHp <=0 {
+	global.won = true;
+	room_goto(rmMainMenu);
 }

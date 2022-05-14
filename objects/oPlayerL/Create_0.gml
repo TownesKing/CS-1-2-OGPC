@@ -10,7 +10,7 @@ if global.gamemode == 1
 }
 lightbearer = true;
 movementSpeed = 6;
-reLight = 600;
+reLight = 200;
 instance_create_layer(x,y,"Instances_BG",objLight);
 global.noLight = false;
 show_debug_message("E");
