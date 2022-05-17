@@ -1,4 +1,4 @@
-if other.sprite_index = sprPlayerSsword
+if other.sprite_index = sprPlayerSsword and Stunned
 {
 	instance_create_layer(x,y,"Instances",oPuff)
 	// 1/10 chance for a gem to appear with deth else 3/10 change of coin

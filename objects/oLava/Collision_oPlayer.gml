@@ -1,2 +1,2 @@
 other.x = 4576;
-other.y = 712;
+other.y = 661;

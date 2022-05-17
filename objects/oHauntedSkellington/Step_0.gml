@@ -46,7 +46,7 @@ if bossHp < 1
 	room_goto(rmCredits)
 	}
 // Steal light for a few seconds
-if damage = 9{
+if damage = 2{
 	damage = 0;
 	global.noLight = true;
 }
