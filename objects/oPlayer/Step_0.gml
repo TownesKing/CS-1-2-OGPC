@@ -40,3 +40,8 @@ room_restart();
 if keyboard_check(ord("B")){
 	room_goto(rmBoss1);
 }
+
+if y > 1000 and room = rmF1{
+	x = 4216;
+	y = 630;
+}

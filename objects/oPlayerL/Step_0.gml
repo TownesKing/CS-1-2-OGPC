@@ -26,5 +26,6 @@ if global.noLight = true{
 	if reLight < 0{
 		instance_create_layer(x,y,"Instances_BG",objLight);
 		global.noLight = false;
+		reLight = 200;
 	}
 }

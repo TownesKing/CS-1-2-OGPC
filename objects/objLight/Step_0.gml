@@ -98,13 +98,7 @@ else
 */
 
 if global.noLight = true{
-	image_index = 2;
-	image_xscale = 0.1;
-	image_yscale = 0.1;
-	move_towards_point(oHauntedSkellington.x,oHauntedSkellington.y,5)
-	if place_meeting(x,y,oHauntedSkellington){
-		instance_destroy();
-	}
+	instance_destroy();
 }
 
 
